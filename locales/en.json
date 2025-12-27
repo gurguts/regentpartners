@@ -1,0 +1,630 @@
+{
+  "common": {
+    "language": "Language",
+    "langEn": "English",
+    "langPl": "Polish",
+    "quickOrder": "Quick Order",
+    "orderPersonnel": "Order Personnel",
+    "requestQuote": "Request a Quote",
+    "contact": "Contact",
+    "loading": "Loading...",
+    "submit": "Submit",
+    "required": "Required",
+    "optional": "Optional",
+    "readMore": "Read more",
+    "close": "Close"
+  },
+  "forms": {
+    "contactForm": {
+      "title": "Contact Us",
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your.email@example.com",
+      "company": "Company",
+      "companyPlaceholder": "Your company name",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "submit": "Send",
+      "submitting": "Sending...",
+      "gdprConsent": "I agree to the processing of personal data",
+      "gdprLink": "Privacy Policy"
+    },
+    "quickOrderForm": {
+      "title": "Quick Personnel Order Form",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "company": "Company",
+      "country": "Country",
+      "employeesCount": "How many employees do you need?",
+      "email": "Email address",
+      "phone": "Phone number",
+      "comments": "Comments",
+      "commentsPlaceholder": "Additional information (optional)",
+      "submit": "Submit Request",
+      "submitting": "Sending request...",
+      "gdprConsent": "I agree to the processing of personal data",
+      "gdprLink": "Privacy Policy"
+    },
+    "validation": {
+      "required": "This field is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneInvalid": "Please enter a valid phone number",
+      "gdprRequired": "You must agree to the privacy policy"
+    },
+    "messages": {
+      "success": "Thank you! Your message has been sent successfully.",
+      "error": "An error occurred. Please try again later.",
+      "thankYou": "Thank you",
+      "thankYouMessage": "We will contact you soon!"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "callCenter": "Call Center Services",
+    "advertising": "Advertising & Campaigns",
+    "recruitment": "International Recruitment"
+  },
+  "footer": {
+    "companyName": "Regent Partners Sp. z o.o.",
+    "address": "ul. Wynalazek 1B/206",
+    "city": "02-677 Warszawa, Poland",
+    "phone": "Phone",
+    "email": "Email",
+    "website": "Website",
+    "krs": "KRS",
+    "nip": "NIP",
+    "krsValue": "0001145892",
+    "nipValue": "5214099286",
+    "phoneValue": "+48 791 186 568",
+    "emailValue": "regantpartners@gmail.com",
+    "websiteValue": "www.regentpartners.pl",
+    "officeHours": "Office Hours",
+    "officeHoursValue": "9:00 – 18:00 CET, Monday–Friday",
+    "quickLinks": "Quick Links",
+    "servicesTitle": "Services",
+    "socialMedia": "Social Media",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "cookies": "Cookies",
+    "terms": "Terms of Service",
+    "copyright": "© 2025 Regent Partners Sp. z o.o. All rights reserved."
+  },
+  "meta": {
+    "defaultTitle": "Regent Partners - Professional B2B Services",
+    "defaultDescription": "Regent Partners offers professional Call Center, Advertising, and International Recruitment services. Trusted B2B partner for business growth."
+  },
+  "pages": {
+    "home": {
+      "title": "Welcome to Regent Partners Sp. z o.o.",
+      "metaTitle": "Regent Partners - Professional Call Center, Advertising & Recruitment Services",
+      "metaDescription": "Welcome to Regent Partners. We provide high-quality Call Center, Advertising, and International Recruitment services to help businesses grow.",
+      "hero": {
+        "h1": "Welcome to Regent Partners Sp. z o.o.",
+        "text": "Welcome to Regent Partners Sp. z o.o., your trusted partner for professional Call Center, Advertising, and International Recruitment services. We help businesses grow by providing high-quality outsourced solutions, contractual reliability, and solid international know-how. Our team of experts is committed to delivering excellence, so you can focus on your core business with confidence in our support.",
+        "ctaPrimary": "Request a Quote",
+        "ctaSecondary": "Quick Order"
+      },
+      "whyChoose": {
+        "title": "Why Choose Regent Partners?",
+        "internationalExpertise": {
+          "title": "International Expertise",
+          "text": "Founded by industry professionals in 2024, we leverage global experience and partnerships to offer the best solutions. Our Warsaw, Poland headquarters acts as a hub connecting you to multilingual talent and cross-border opportunities."
+        },
+        "qualityReliability": {
+          "title": "Quality & Reliability",
+          "text": "We pride ourselves on delivering services at the highest standards of quality. We strictly adhere to agreements and local/international regulations, ensuring every project is completed on time, on budget, and in full compliance with the law."
+        },
+        "comprehensiveServices": {
+          "title": "Comprehensive Services",
+          "text": "From handling your customer communications to running impactful marketing campaigns and filling your talent gaps, Regent Partners provides a one-stop solution. This broad scope means we can tailor our support to fit your unique business needs, large or small."
+        }
+      },
+      "coreServices": {
+        "title": "Our Core Services",
+        "callCenter": {
+          "title": "Call Center Services",
+          "text": "Outsource your customer communication to our skilled, multilingual team for efficient inbound support, outbound sales calls, helpdesk, and more."
+        },
+        "advertising": {
+          "title": "Advertising & Campaigns",
+          "text": "Boost your brand with our full-service advertising solutions, including online marketing, traditional media, and creative campaign management."
+        },
+        "recruitment": {
+          "title": "International Recruitment",
+          "text": "Quickly fill staffing needs with our global recruitment services. We source qualified candidates from international markets and handle the hiring process end-to-end."
+        }
+      },
+      "closingCta": {
+        "text": "Start accelerating your business growth with Regent Partners. Professional service, competitive advantages, and a global reach – all at your fingertips.",
+        "button": "Contact"
+      }
+    },
+    "services": {
+      "title": "Services",
+      "metaTitle": "Our Services - Call Center, Advertising & Recruitment",
+      "metaDescription": "Explore Regent Partners' comprehensive B2B services: Call Center solutions, Advertising campaigns, and International Recruitment services.",
+      "hero": {
+        "h1": "Our Services",
+        "text": "Regent Partners offers a comprehensive suite of B2B services designed to help your business thrive. Explore our three core service areas below and discover how we can support your growth."
+      },
+      "cardCallCenter": {
+        "title": "Call Center Services",
+        "text": "Outsource your customer communication to our skilled, multilingual team for efficient inbound support, outbound sales calls, helpdesk, and more."
+      },
+      "cardAdvertising": {
+        "title": "Advertising & Campaigns",
+        "text": "Boost your brand with our full-service advertising solutions, including online marketing, traditional media, and creative campaign management."
+      },
+      "cardRecruitment": {
+        "title": "International Recruitment",
+        "text": "Quickly fill staffing needs with our global recruitment services. We source qualified candidates from international markets and handle the hiring process end-to-end."
+      }
+    },
+    "callCenter": {
+      "title": "Call Center Services",
+      "metaTitle": "Call Center Services - Regent Partners",
+      "metaDescription": "Professional call center solutions: customer support, technical helpdesk, telemarketing, and more. Multilingual team, 24/7 service.",
+      "hero": {
+        "h1": "Call Center Services",
+        "intro": "Our Call Center Services help your business deliver excellent customer experience and efficient communication. Regent Partners provides a full spectrum of call center solutions, from customer support to telemarketing, all tailored to your needs. By outsourcing your call center to us, you gain a multilingual, skilled team and advanced infrastructure without the overhead of running it in-house."
+      },
+      "overview": {
+        "title": "Service Overview",
+        "text": "We operate both inbound and outbound call center campaigns. This includes handling incoming customer inquiries, providing technical support, conducting outbound sales calls, lead generation campaigns, surveys, and more. Modern businesses require more than just answering phones – we become a strategic extension of your customer service team, ensuring every interaction with your clients is positive and professional."
+      },
+      "benefits": {
+        "title": "Key Benefits for B2B Clients",
+        "multilingual": {
+          "title": "Multilingual & Cultural Advantage",
+          "text": "Our call center agents are proficient in multiple languages, enabling support for diverse markets. Thanks to our international partnerships, we can serve customers in English, Polish, Romanian, Russian, and other major European languages. (For example, Moldova is known for multilingual talent fluent in English, French, Italian, German, etc., an advantage we leverage through our network.) This ensures smooth communication with your clients, no matter where they are."
+        },
+        "trainedTeam": {
+          "title": "Highly Trained Team",
+          "text": "We pride ourselves on our skilled workforce. Our team consists of experienced call center professionals adept at handling complex customer queries and resolving issues to ensure customer satisfaction. Rigorous training and quality assurance processes mean calls are handled efficiently and courteously, reinforcing your company's reputation with every contact."
+        },
+        "technology": {
+          "title": "Advanced Technology",
+          "text": "Regent Partners utilizes state-of-the-art call center technology to optimize operations. From automatic call distribution and CRM integration to call recording and analytics, we have the tools to handle high volumes while maintaining quality. Our robust infrastructure guarantees uninterrupted service, so your customers can reach us 24/7 without fail."
+        },
+        "scalable": {
+          "title": "Cost-Effective & Scalable",
+          "text": "Outsourcing to our call center can significantly reduce your costs. You save on hiring, training, and equipment expenses, while benefiting from our streamlined processes. We offer flexible scaling – need to ramp up support for a seasonal peak or product launch? We can quickly add trained agents to accommodate the volume. During quieter periods, you only pay for the capacity you use. This scalability means maximum efficiency and ROI for your business."
+        },
+        "focus": {
+          "title": "Focus on Core Business",
+          "text": "By entrusting us with your call center needs, your team can focus on core business activities (development, sales, etc.) instead of being tied up with daily customer service. We manage the day-to-day support and reporting, while you retain full visibility into performance. This allows you to concentrate on growth and strategy, knowing your customers are in good hands."
+        }
+      },
+      "servicesInclude": {
+        "title": "Our Call Center Services Include",
+        "customerSupport": {
+          "title": "Customer Support",
+          "text": "Friendly and knowledgeable agents handle inquiries, complaints, and service requests round-the-clock. We ensure your customers receive timely assistance and feel valued, increasing satisfaction and loyalty."
+        },
+        "technicalSupport": {
+          "title": "Technical Support (Help Desk)",
+          "text": "Skilled IT support representatives troubleshoot technical issues and guide users through solutions. Whether it's software support or device troubleshooting, we resolve problems efficiently to minimize downtime."
+        },
+        "telemarketing": {
+          "title": "Outbound Sales & Telemarketing",
+          "text": "Our telemarketing team conducts proactive outreach to generate leads and boost your sales pipeline. We can execute cold-calling campaigns, follow-up with prospects, or upsell to existing customers, all while maintaining a professional image of your company. Additionally, we perform market research and customer satisfaction surveys via phone, gathering valuable data for your marketing strategy."
+        },
+        "orderProcessing": {
+          "title": "Order Processing & Hotline Services",
+          "text": "We manage hotlines and order lines to take customer orders or bookings seamlessly. From processing e-commerce orders to handling event registrations by phone, we make sure each transaction is smooth and accurately logged."
+        },
+        "afterSales": {
+          "title": "After-Sales Support",
+          "text": "Our service doesn't end with the sale. We provide after-sales call support – following up with customers for feedback, scheduling maintenance or installation calls, and ensuring your clients remain happy long-term. This helps in building repeat business and strong client relationships."
+        }
+      },
+      "conclusion": {
+        "text": "With Regent Partners' Call Center Services, you gain a partner dedicated to representing your company with professionalism and care in every conversation. We understand that our performance directly impacts your brand's reputation, so we operate with the same commitment to excellence that you expect from your own team. Let us help you improve customer retention, expand into new markets with multilingual support, and ultimately, grow your business through superior customer communication."
+      },
+      "caseStudy": {
+        "title": "Client Success Example",
+        "text": "(Illustrative Scenario) One of our B2B clients in the e-commerce sector saw a 20% improvement in customer satisfaction ratings within 3 months of outsourcing their customer service to Regent Partners. By providing 24/7 multilingual support and reducing average wait times, we helped them convert frustrated callers into loyal customers. We can deliver similar results for your business, crafting a support solution that aligns with your goals."
+      },
+      "cta": {
+        "text": "Empower your customer communications with Regent Partners. Our professional call center team is ready to become the voice of your company, turning each customer contact into an opportunity for satisfaction and success.",
+        "button": "Contact Us"
+      }
+    },
+    "advertising": {
+      "title": "Advertising & Campaigns",
+      "metaTitle": "Advertising & Campaigns - Regent Partners",
+      "metaDescription": "Full-service advertising and campaign management: digital marketing, traditional media, creative design, social media management, and more.",
+      "hero": {
+        "h1": "Advertising & Campaigns"
+      },
+      "whatWeOffer": {
+        "title": "What We Offer",
+        "text": "Our advertising services are comprehensive, covering both online digital marketing and traditional advertising channels. We understand that a successful campaign often requires a mix of media, so we do not limit ourselves to just online marketing – we also incorporate offline strategies such as print ads, radio/TV spots, or outdoor billboards when they align with your goals. This multi-channel approach allows us to meet high client expectations and continuously expand our offerings in line with market trends."
+      },
+      "serviceComponents": {
+        "title": "Service Components",
+        "strategy": {
+          "title": "Advertising Strategy & Consulting",
+          "text": "Every successful campaign starts with a solid strategy. Our marketing experts work with you to analyze your target audience, market positioning, and objectives. We then develop a tailored advertising plan that chooses the optimal mix of channels and messaging. Whether you aim to build brand awareness or generate immediate sales leads, we outline a clear roadmap to achieve those goals. (We also offer consulting as a standalone service – for example, advising on branding or market entry campaigns – drawing on our extensive marketing know-how.)"
+        },
+        "creative": {
+          "title": "Creative Campaign Design",
+          "text": "Our creative team will craft compelling ad content and visuals that resonate with your audience. This includes copywriting for slogans or ad scripts, graphic design for digital and print ads, and production of marketing materials. We ensure that all campaign elements align with your brand identity and communicate a consistent, powerful message. \"Proper advertising is the foundation of every business's successful functioning\" – with that principle in mind, we aim for impactful creatives that capture attention and clearly convey your value proposition."
+        },
+        "digital": {
+          "title": "Digital Marketing Campaigns",
+          "text": "In today's world, online presence is crucial. We manage end-to-end digital advertising campaigns: from Google Ads and search engine marketing, to social media advertising on platforms like Facebook, LinkedIn, or Instagram, to banner ads on relevant web portals. Our team handles campaign setup, continuous optimization (A/B testing, budget adjustments), and performance analysis. We use data-driven techniques to maximize ROI – targeting specific demographics and interests so that your ads reach potential customers most likely to convert. By outsourcing digital campaigns to us, you gain immediate access to skilled marketers and advanced tools without the need to maintain those in-house. We keep up with the latest algorithm changes and trends, ensuring your online ads remain effective and up-to-date."
+        },
+        "socialMedia": {
+          "title": "Social Media Management",
+          "text": "As part of advertising, we can also manage your social media presence to complement paid campaigns. This involves creating engaging posts, running page promotions, and interacting with followers to build an organic community around your brand. A lively social media profile boosts the effectiveness of your ads by providing social proof and brand personality."
+        },
+        "traditional": {
+          "title": "Traditional Media Advertising",
+          "text": "Regent Partners also plans and buys media in traditional channels. We can design and place advertisements in newspapers and magazines, produce radio jingles or TV commercials, and handle outdoor advertising such as billboards or transit ads. For example, we have the capability to create and execute print media campaigns in industry magazines or local press, and arrange outdoor ads on billboards or building banners, as well as vehicle advertising (wraps on buses or cars). By combining online and offline efforts, we ensure your campaign has a broad reach and multiple touchpoints with potential customers. This 360-degree approach sets us apart from agencies that focus only on one medium – like Regent Partners, many top agencies today extend beyond online marketing into offline channels to maximize impact."
+        },
+        "eventMarketing": {
+          "title": "Out-of-Home & Event Marketing",
+          "text": "In addition to static outdoor ads, we also assist with event-based promotions and field marketing. If you plan to appear at trade shows or sponsor events, we can create exhibition stands, banners, and promotional materials that draw attention. We handle the creation of display stands and promo booths, ensuring your brand stands out. We also manage distribution of flyers or samples – our team can coordinate or supervise flyer distribution campaigns to targeted areas."
+        },
+        "promotional": {
+          "title": "Promotional Campaigns & Loyalty Programs",
+          "text": "To help you attract, retain, and engage customers, we develop promotional marketing campaigns. This might involve seasonal promotions, contests, or launching a customer loyalty program. For instance, we can design and administer a loyalty program for your business, creating membership cards, tracking customer points, and organizing promotions for loyal customers. We also advise on and implement bonus point systems or referral reward schemes to increase customer lifetime value. All these initiatives are aimed at boosting user engagement and encouraging repeat business."
+        },
+        "research": {
+          "title": "Market Research & Analysis",
+          "text": "A campaign is only as good as the insight behind it. That's why we offer market research services to inform advertising strategy. We can carry out market potential investigations, consumer behavior analysis, and surveys to gauge public opinion on your product or service. For example, we might survey public opinion about an employment offer, working conditions, or product appeal to help you refine your offerings or marketing angle. By analyzing such data, we help you understand what motivates your target audience and how to communicate effectively. Additionally, after campaigns, we analyze results (sales data, survey responses, web analytics) to measure success and gather learnings for future efforts."
+        }
+      },
+      "competitiveBenefits": {
+        "title": "Competitive Benefits",
+        "intro": "Choosing Regent Partners for advertising means gaining a marketing department with broad capabilities, minus the fixed cost. We invest heavily in staying on top of marketing trends and tools so you don't have to. Here are some specific advantages we provide:",
+        "branding": "We ensure consistent branding across all channels – your online and offline campaigns will have a unified look and message, reinforcing brand recognition.",
+        "international": "Our experience with international markets can help you adapt campaigns for different regions or cultures, if you're targeting beyond Poland. We know how to localize content (e.g. language nuances, cultural references) to make your ads effective globally.",
+        "agile": "Regent Partners is agile and results-driven. We monitor campaign performance in real time and can quickly pivot strategies if needed. If an ad isn't performing or a new opportunity arises, we respond immediately to optimize your campaign's success.",
+        "reporting": "You benefit from transparent reporting. We provide detailed reports on key metrics (impressions, clicks, conversions, leads, etc. for digital; reach and response for traditional). We also share insights and recommendations, not just raw data, so you clearly understand the ROI.",
+        "integrated": "By working with us, you avoid the pitfall of having to hire multiple specialized agencies (one for digital, one for print, etc.). Our integrated approach is cost-efficient and ensures all campaign elements work in harmony."
+      },
+      "pricingApproach": {
+        "title": "Our Pricing Approach",
+        "text": "We maintain a flexible pricing model for advertising services. Depending on client preference, we can work on a per-project fixed fee (for defined campaigns), a monthly retainer (for ongoing marketing management), or even performance-based models for certain lead-generation campaigns. We have a transparent price list (see the Pricing section) for standard units like \"per campaign\" or \"per advertisement\", derived from real project data. This transparency helps you plan your budget with no surprises.",
+        "linkText": "View our Pricing"
+      },
+      "exampleCampaign": {
+        "title": "Example Campaign",
+        "text": "(Illustration) A client in the hospitality industry wanted to boost bookings in the off-season. Regent Partners devised a multi-channel campaign: a targeted social media ad series offering a winter discount, an email marketing blast to past customers, and local radio spots. We also created an online booking promo code and tracked usage. The result was a 30% increase in off-season reservations and a strong return on ad spend. The client praised the cohesive branding across Facebook, email, and radio – all created by our team – and the clear reporting that showed exactly how many bookings came from each channel."
+      },
+      "conclusion": {
+        "text": "From concept to execution, Regent Partners handles the heavy lifting of advertising, allowing you to reap the benefits of a professional campaign without diverting your own resources. Whether you need a one-time marketing boost or continuous advertising support, we have the tools, talent, and dedication to make your brand shine and your business grow."
+      }
+    },
+    "pricing": {
+      "title": "Pricing",
+      "metaTitle": "Transparent Pricing - Regent Partners",
+      "metaDescription": "View our transparent price list for Call Center, Advertising, and International Recruitment services. Fair pricing based on real project rates.",
+      "intro": "At Regent Partners, we believe in transparent and fair pricing. Below is our price list for key services, based on real project rates and the invoice data provided by our client. All prices are listed in Euro (EUR) and are net amounts (tax exclusive). These standard rates can serve as a guideline for budgeting; however, we are always open to discussing custom solutions or volume discounts tailored to specific client needs.",
+      "callCenter": {
+        "title": "Call Center Services",
+        "item1": {
+          "name": "Inbound/Outbound Call Center Support",
+          "price": "€7.84 per hour",
+          "unit": "Hour of call center agent work",
+          "description": "This rate covers one trained call center agent handling inbound calls or making outbound calls for one hour. It includes customer support, telemarketing, helpdesk, or similar call activities. For large-scale or long-term projects, custom pricing packages can be negotiated.",
+          "example": "Example: 1,246 hours of call center service in a month would cost €7.84 × 1246 = €9,768.64 net."
+        }
+      },
+      "advertising": {
+        "title": "Advertising & Campaign Services",
+        "intro": "We offer both individual advertising services and full campaign packages. Below are common service items with pricing.",
+        "items": [
+          {
+            "name": "Full Advertising Campaign Creation & Execution",
+            "price": "€2,660 per campaign",
+            "unit": "Per complete campaign (fixed price)",
+            "description": "Turn-key development and implementation of an advertising campaign. This includes campaign strategy, creative design, media planning, and deployment across chosen channels. Suitable for a comprehensive marketing push or product launch."
+          },
+          {
+            "name": "Online Advertising Campaign (Web & Social Media)",
+            "price": "€351.50 per campaign",
+            "unit": "Per online campaign",
+            "description": "Creation and placement of online advertisements (e.g., on web portals, social media, Google Ads, etc.). This typically covers designing banner ads or social media ads and running the campaign for a set duration. Ideal for targeted digital marketing efforts focusing on web and social platforms."
+          },
+          {
+            "name": "Radio/TV/Print Advertising Placement",
+            "price": "€456 per campaign",
+            "unit": "Per media campaign (standard media buy)",
+            "description": "Creation and placement of ads in newspapers, magazines, radio, or TV. The price covers the creative creation and coordination of placing one ad campaign in traditional media outlets."
+          },
+          {
+            "name": "Marketing Consulting & Campaign Strategy",
+            "price": "€4.28 per hour",
+            "unit": "Per hour of consulting (or packaged per project)",
+            "description": "Advisory services in advertising and marketing. This can include campaign planning, brand consulting, or marketing strategy development."
+          },
+          {
+            "name": "Outdoor Advertising (Billboards/Signage)",
+            "price": "€33.25 per unit",
+            "unit": "Per billboard or outdoor poster",
+            "description": "Designing and placing outdoor advertisements such as billboards, building banners, or signage. The price is an average cost for producing and installing a standard outdoor advertisement."
+          },
+          {
+            "name": "Vehicle Advertising (Wraps/Decals)",
+            "price": "€13.78 per vehicle",
+            "unit": "Per vehicle ad",
+            "description": "Application of advertising decals or full wraps on cars, buses, or other vehicles. The price covers design and installation on one vehicle."
+          },
+          {
+            "name": "Flyers/Brochures",
+            "price": "€0.06 per piece",
+            "unit": "Printing and basic design",
+            "description": "Production of marketing collateral including flyer printing and basic design."
+          },
+          {
+            "name": "Direct Mail Advertising",
+            "price": "€0.95 per recipient",
+            "unit": "Direct mail campaign management",
+            "description": "Direct mail campaigns at per targeted address (excluding postage)."
+          },
+          {
+            "name": "Sample/Product Distribution",
+            "price": "€0.02 per unit",
+            "unit": "Distributing promotional materials or samples per item",
+            "description": "Distribution of promotional materials or samples (excluding product cost)."
+          },
+          {
+            "name": "Marketing Campaign Execution (User Acquisition/Loyalty Programs)",
+            "price": "€1,995 per campaign",
+            "unit": "Per campaign (fixed price)",
+            "description": "Running complex marketing campaigns aimed at attracting, retaining, or engaging users. For instance, multi-step promotional campaigns, loyalty or bonus point programs, etc."
+          }
+        ],
+        "note": "The above prices for advertising services are indicative. We can customize quotes based on campaign scope, media costs, and specific client requirements."
+      },
+      "recruitment": {
+        "title": "International Recruitment Services",
+        "items": [
+          {
+            "name": "International Recruitment (Placement Fee)",
+            "price": "Typically 1 month's salary or 15–20% of annual salary per hire",
+            "unit": "Per successful candidate placed (exact fee tailored per project)",
+            "description": "We usually operate on a success-fee model for recruitment. The placement fee is often equivalent to a percentage of the hired candidate's agreed annual salary, or a flat fee roughly equal to one month's pay. The exact percentage or amount depends on the role's difficulty, volume of hires, and contract type (temporary or permanent). This fee covers the entire recruitment process: sourcing, screening, legal paperwork coordination, etc."
+          },
+          {
+            "name": "Temporary Staffing / Staff Leasing",
+            "price": "Salary + agency margin",
+            "unit": "Per worker per hour or month (custom quoted)",
+            "description": "If you engage workers through us on a temporary or leasing basis, pricing is usually composed of the worker's wage plus a service margin. All such arrangements are quoted individually, as they depend on the job type, contract duration, and local labor tax requirements."
+          },
+          {
+            "name": "Work Permit Processing",
+            "price": "Included in placement fee (or separately ~€100–€200 per case)",
+            "unit": "Standalone service if not included in placement",
+            "description": "Handling all administrative processes related to work permits and employment authorization."
+          },
+          {
+            "name": "Relocation Support (Travel & Accommodation)",
+            "price": "At cost + 10% service fee",
+            "unit": "Actual flight tickets, accommodation, etc. with handling charge",
+            "description": "We arrange transportation (flights, train, or bus tickets) and assist in securing initial accommodation for hired employees."
+          },
+          {
+            "name": "Onboarding & Training Support",
+            "price": "€4.56 per hour",
+            "unit": "If on-site support/training is required",
+            "description": "Providing an interpreter or trainer for initial worker orientation, safety procedures, company policies, etc."
+          }
+        ],
+        "note": "We ensure all recruitment pricing is clarified in our proposal and contract. No surprise fees – you will know exactly what each hire or service will cost before we proceed."
+      },
+      "other": {
+        "title": "Market Research & Other Services",
+        "intro": "In addition to the main service lines, we also have offerings in market research, PR, admin support, etc. Prices for these are available on request. Below are a few reference points:",
+        "items": [
+          {
+            "name": "Market Research & Surveys",
+            "price": "€4.56 per hour",
+            "unit": "Research analyst work",
+            "description": "Conducting surveys, analyzing data. If a full market study is needed, we will quote a project fee."
+          },
+          {
+            "name": "Public Opinion Polling (specialized)",
+            "price": "€7.84 per hour",
+            "unit": "For complex field surveys",
+            "description": "Specialized surveys, e.g., gauging worker satisfaction about conditions. This higher rate accounts for specialist supervision."
+          },
+          {
+            "name": "Public Relations Consulting",
+            "price": "€332.50 per trip/day or €665 per month",
+            "unit": "Consulting or representation services",
+            "description": "Consulting or representation tasks in international PR or communications. Exact pricing depends on scope."
+          },
+          {
+            "name": "Administrative Support Services",
+            "price": "€332.50 per month (basic) / €475 per month (advanced)",
+            "unit": "Daily secretarial service bundles or advanced admin coordination",
+            "description": "Combined secretarial or back-office outsourcing. This might include reception services, invoicing support, HR admin, etc. as a package."
+          }
+        ],
+        "note": "The above ancillary prices come from the extended list of services in our contract annex. They can be provided if relevant to a client's needs."
+      },
+      "terms": {
+        "title": "Terms & Conditions",
+        "vatNote": "All prices are net (VAT will be added where applicable, according to Polish and EU tax law). For cross-border services, reverse charge VAT or other mechanisms may apply.",
+        "invoiceNote": "We typically invoice monthly for ongoing services (like call center hours or staff leasing) and by milestone or campaign for project-based services (like an advertising campaign or a completed recruitment).",
+        "discounts": "Volume discounts or long-term contract discounts can be negotiated. For instance, committing to over 1000 call center hours per month or running multiple advertising campaigns in a package may entitle you to reduced rates.",
+        "transparency": "We are committed to transparency – the pricing above is derived from actual service components and we will never charge hidden fees. Should any additional costs arise (for example, government visa fees, media buying costs, etc.), these will be clearly communicated and passed through at cost or pre-approved with you.",
+        "disclaimer": "Prices may vary depending on project scope, volume, and specific requirements. All prices are indicative and subject to change. Please contact us for a customized quote tailored to your needs."
+      },
+      "contact": "If you have any questions about our pricing or need a customized quote, please contact us. We will gladly provide a detailed proposal tailored to your specific needs and budget."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "metaTitle": "Contact Regent Partners - Get in Touch",
+      "metaDescription": "Contact Regent Partners in Warsaw, Poland. Reach out for inquiries, consultations, or to discuss how we can support your business.",
+      "intro": "We welcome you to reach out to Regent Partners for any inquiries, consultations, or to discuss how we can support your business. Our team is ready to assist you and provide any information you need. You can contact us through the following channels:",
+      "info": {
+        "title": "Company Details",
+        "companyName": "Regent Partners Sp. z o.o.",
+        "address": "ul. Wynalazek 1B/206",
+        "city": "02-677 Warszawa, Poland",
+        "phone": "Phone",
+        "email": "Email",
+        "website": "Website",
+        "registration": "Regent Partners is registered in Poland under KRS {krs}, NIP {nip}.",
+        "krs": "KRS",
+        "nip": "NIP"
+      },
+      "officeHours": {
+        "title": "Office Hours",
+        "text": "Our business hours are 9:00 – 18:00 CET, Monday through Friday. We strive to respond to all emails within one business day. For urgent matters, please call us directly."
+      },
+      "location": {
+        "title": "Location",
+        "text": "Our head office is located in the Mokotów district of Warsaw, a short drive from the city center and Warsaw Chopin Airport. If you wish to visit us for a meeting, kindly schedule an appointment and we will be happy to host you at our office."
+      },
+      "directions": {
+        "title": "Map & Directions",
+        "text": "The map to our office can be found below. We are situated in the business complex at ul. Wynalazek 1B – look for building 1B, and we are on the second floor, suite 206. Parking is available on-site for visitors (please inform us of your visit so we can arrange access)."
+      },
+      "form": {
+        "intro": "Alternatively, you may use the contact form below. Simply fill in your name, email, company, and a brief message describing your inquiry. We will route your message to the appropriate department (sales, recruitment, support, etc.) and get back to you promptly."
+      },
+      "socialMedia": {
+        "text": "Follow us on LinkedIn and Facebook (links available on our site) to get updates on our services, industry insights, and company news."
+      },
+      "closing": "We look forward to hearing from you and exploring how Regent Partners can become your partner in success. Contact us today, and let's start a conversation about achieving your business goals together."
+    },
+    "about": {
+      "title": "About Us",
+      "metaTitle": "About Regent Partners - Our Mission, Values & Expertise",
+      "metaDescription": "Learn about Regent Partners Sp. z o.o. - a trusted B2B service provider based in Warsaw, Poland, specializing in customer communications, marketing, and human resources.",
+      "companyProfile": {
+        "h1": "About Us",
+        "text": "Regent Partners Sp. z o.o. is a Polish limited liability company based in Warsaw (ul. Wynalazek 1B/206, 02-677 Warszawa), operating since December 20, 2024. We were founded with a clear mission: to help businesses thrive by providing high-quality B2B services in customer communications, marketing, and human resources. Our team combines expertise across Call Center operations, Advertising campaigns, and International recruitment, making us uniquely positioned to support clients in multiple aspects of their business."
+      },
+      "whoWeAre": {
+        "title": "Who We Are",
+        "text": "We are a dynamic team of professionals with international experience and a passion for excellence. Each department of Regent Partners is led by experts with years of know-how in their field – from call center management to creative advertising to global talent acquisition. This diversity of expertise allows us to approach business challenges holistically and craft integrated solutions."
+      },
+      "values": {
+        "title": "Our Values",
+        "professionalism": {
+          "title": "Professionalism & Reliability",
+          "text": "We maintain the highest professional standards in every project. Our commitment to \"seriousness in contracts\" means we honor our agreements and deliver on our promises, fostering trust with our clients."
+        },
+        "quality": {
+          "title": "Quality Service",
+          "text": "We believe that quality is the cornerstone of success. Whether it's a small marketing campaign or a large-scale staffing project, we apply rigorous quality control to ensure outstanding results."
+        },
+        "knowHow": {
+          "title": "International Know-How",
+          "text": "With partners and operations spanning multiple countries, we bring global insights to local challenges. Our international know-how translates into innovative strategies and efficient execution for our clients."
+        },
+        "clientCentric": {
+          "title": "Client-Centric Approach",
+          "text": "Your business goals drive what we do. We tailor our services to each client's needs and provide personalized support. Communication is transparent and prompt at every step, and we adapt to your feedback to ensure satisfaction."
+        }
+      },
+      "whatWeDo": {
+        "title": "What We Do",
+        "intro": "Regent Partners offers a triad of B2B services:",
+        "callCenter": {
+          "title": "Call Center Services",
+          "text": "We handle customer interactions on behalf of our clients, ensuring your customers receive friendly, prompt, and effective support."
+        },
+        "advertising": {
+          "title": "Advertising & Campaigns",
+          "text": "We act as your external marketing department – designing and running campaigns that elevate your brand and attract customers, both online and offline."
+        },
+        "recruitment": {
+          "title": "International Recruitment",
+          "text": "We connect you to skilled talent beyond your borders, managing the recruitment process from sourcing to onboarding in full compliance with all regulations."
+        },
+        "conclusion": "Our comprehensive approach means you can consolidate vendors and rely on one trusted partner for multiple needs. We are dedicated to building long-term partnerships – when you work with Regent Partners, you gain a committed ally invested in your success."
+      },
+      "globalNetwork": {
+        "title": "Our Global Network",
+        "text": "Although we are based in Poland, our reach is international. We collaborate with partner agencies and professionals across Europe and beyond, including in emerging talent markets. For example, through our partnerships we have access to skilled multilingual staff from Eastern Europe (e.g. Moldova, Romania), known for their strong work ethic and language capabilities. This network enables us to deliver cost-effective solutions without compromising on quality or expertise."
+      },
+      "addressCard": {
+        "title": "Our Office",
+        "address": "ul. Wynalazek 1B/206",
+        "city": "02-677 Warszawa, Poland"
+      }
+    },
+    "recruitment": {
+      "title": "International Recruitment",
+      "metaTitle": "International Recruitment Services - Regent Partners",
+      "metaDescription": "International recruitment services: sourcing talent from abroad, handling work permits, logistics, and onboarding. Fill your staffing needs quickly and legally.",
+      "hero": {
+        "h1": "International Recruitment",
+        "intro": "Navigating the complexities of cross-border hiring can be challenging for companies – and that's where Regent Partners steps in. We offer International Recruitment Services that connect your business with the best talent from around the world, handling every step of the recruitment and onboarding process. Our goal is to help you fill critical roles quickly and efficiently, while ensuring full compliance with all legal requirements and a smooth integration of the new employees into your operations."
+      },
+      "summary": {
+        "text": "We specialize in sourcing and recruiting skilled and unskilled workers from international markets to meet your workforce needs. Whether you face local labor shortages or seek niche skills not readily available in your region, Regent Partners can tap into a broad network of candidates abroad. For example, we can recruit workers from Eastern Europe (Moldova, Romania, Ukraine, etc.), Asia, or other regions as needed. Our services cover all industries – from agriculture and manufacturing to logistics, construction, cleaning, and beyond. We handle recruitment for a wide range of positions, from entry-level workers to specialized professionals. This includes roles such as warehouse operators, production line workers, drivers, agricultural laborers, cleaners, as well as technicians, welders, CNC machine operators, engineers, and other skilled specialists. By leveraging global talent pools, we help you overcome domestic hiring constraints and ensure you have the right people to drive your business forward."
+      },
+      "process": {
+        "title": "Our Recruitment Process – from Start to Finish",
+        "intro": "Regent Partners manages the entire lifecycle of international recruitment with a structured, step-by-step approach designed to make hiring from abroad as seamless as hiring locally.",
+        "step1": {
+          "number": "1",
+          "title": "Needs Analysis",
+          "text": "We begin with a thorough analysis of your staffing needs. We work closely with you to define the profiles of the ideal candidates – the qualifications, skills, experience, and language abilities required for the roles. We also discuss any preferences for source countries or other specifics. This upfront clarity allows us to target the right labor markets and candidates, ensuring efficiency and a strong fit for your company culture and job requirements."
+        },
+        "step2": {
+          "number": "2",
+          "title": "International Sourcing",
+          "text": "Based on the agreed profiles, we identify the best source markets for talent. Through our network of local recruitment partners and online platforms in various countries, we search for candidates abroad who match your needs. We leverage job boards, social media, local agencies, and our own candidate databases to reach both active job seekers and passive talent. Our recruiters are adept at navigating different cultural contexts and languages, which is critical in engaging foreign candidates effectively."
+        },
+        "step3": {
+          "number": "3",
+          "title": "Candidate Screening & Selection",
+          "text": "All candidates undergo a rigorous screening process. We verify their experience, qualifications, and references, and conduct interviews (via video conferencing for overseas candidates) and skill tests where applicable. We also assess soft skills and cultural adaptability – important factors when placing someone in a foreign work environment. A short-list of the top candidates is then presented to you. Depending on your preference, you can conduct final interviews with these candidates (often via video call) or entrust final selection to us."
+        },
+        "step4": {
+          "number": "4",
+          "title": "Legal Compliance & Work Permits",
+          "text": "One of the most critical aspects of international hiring is handling the legal paperwork. Regent Partners manages all administrative processes related to employment authorization, so that you and the candidates meet all requirements of immigration and labor laws. For non-EU candidates coming to Poland or the EU, this typically means obtaining work permits and possibly residence visas. We prepare and file the necessary documentation with the authorities, whether it's work permit applications, visa support letters, or fulfilling any quotas or labor market test conditions if required."
+        },
+        "step5": {
+          "number": "5",
+          "title": "Logistics: Travel & Accommodation",
+          "text": "Relocating for a job is a major step for any candidate. Regent Partners provides extensive support in organizing the travel and accommodation for the hired employees. We arrange transportation (flights, train, or bus tickets) for their journey to the work location, aligned with your start-date requirements. Additionally, we assist in securing initial accommodation – be it company-provided housing or helping the employees find rentals."
+        },
+        "step6": {
+          "number": "6",
+          "title": "Onboarding & Integration",
+          "text": "Our service doesn't stop when the employee arrives. We assist with the onboarding process to integrate foreign employees into your company smoothly. We coordinate with your HR or department managers to schedule any required orientations or trainings. If needed, we organize introductory training sessions (for example, on safety procedures, company policies, basic local language phrases, etc.) to help the new hires acclimate."
+        }
+      },
+      "benefits": {
+        "title": "Business Benefits",
+        "talentPool": "Access to a Wider Talent Pool: Through international recruitment, you gain access to a vastly larger pool of candidates than the local market can offer. This is especially valuable for roles that are in high demand or require specific expertise.",
+        "fasterHiring": "Faster Hiring for Hard-to-Fill Positions: Instead of waiting months to find a local candidate (or having positions unfilled), we can often present qualified international candidates in a fraction of the time. Our network and proactive recruitment methods expedite the hiring process, minimizing downtime for your business.",
+        "costEfficiency": "Cost Efficiency: In many cases, hiring from abroad can be cost-effective. Some international candidates may have lower salary expectations than equally qualified local candidates, especially for manual or semi-skilled work. Additionally, by letting us handle the recruitment and relocation, you avoid significant internal costs and effort.",
+        "compliance": "Compliance and Risk Mitigation: One of the biggest worries in international hiring is compliance with immigration and labor laws. With Regent Partners managing the process, you reduce legal risks. We ensure every hire has the proper work authorization and that all procedures are correctly followed, protecting you from potential fines or legal issues.",
+        "retention": "Smooth Onboarding = Higher Retention: Because we provide support with relocation and integration, employees recruited through us tend to settle in well and appreciate the assistance. This increases their commitment to the job and improves retention rates.",
+        "scalability": "Scalability of Workforce: If your business needs to ramp up a project quickly (for example, a new construction site or a sudden large order in a factory), our international recruitment can supply dozens or even hundreds of workers within a short timeframe, depending on your requirements."
+      },
+      "caseStudy": {
+        "title": "Real-World Example",
+        "text": "(Case Study) A manufacturing company in Germany was struggling to find enough welders and machine operators locally due to a skilled labor shortage. Regent Partners stepped in to recruit from abroad: within 6 weeks, we sourced 10 certified welders and 15 CNC machine operators from Eastern Europe and Asia. We coordinated their work permits for Germany, arranged flights and temporary housing, and even provided a translator for the first month on site to ease communication. The client was able to meet its production deadlines thanks to the influx of skilled labor, and the hired workers integrated well, with several being offered long-term positions."
+      },
+      "b2bSupport": {
+        "title": "Business to Business Support",
+        "text": "Regent Partners is more than just a service provider – we see ourselves as a business-to-business (B2B) support partner committed to your success. Our company operates as a reliable bridge between international talent pools and businesses like yours, ensuring that cooperation is smooth, professional, and beneficial for all parties involved. When you engage with Regent Partners, you gain access to an extensive support system. Any issues or concerns that arise during our partnership are addressed promptly, legally, and with full professionalism. We pride ourselves on clear and responsive communication; you will always have a dedicated point of contact at Regent Partners who understands your project and can resolve queries or challenges quickly."
+      },
+      "quickOrder": {
+        "title": "Quick Personnel Order Form",
+        "description": "To make engaging our services as convenient as possible, we provide a \"Quick Personnel Order Form\" on our website – a simple, streamlined way for you to request the staff or service you need and get a fast response from our team. If you're interested in hiring personnel (for example, through our international recruitment or temporary staffing service), just fill in the form fields and we will get back to you with a tailored offer.",
+        "submitSuccess": "Thank you! Your request has been submitted successfully. We will contact you within one business day."
+      }
+    }
+  }
+}
+

@@ -1,0 +1,630 @@
+{
+  "common": {
+    "language": "Język",
+    "langEn": "Angielski",
+    "langPl": "Polski",
+    "quickOrder": "Szybkie zamówienie",
+    "orderPersonnel": "Zamów personel",
+    "requestQuote": "Poproś o wycenę",
+    "contact": "Kontakt",
+    "loading": "Ładowanie...",
+    "submit": "Wyślij",
+    "required": "Wymagane",
+    "optional": "Opcjonalnie",
+    "readMore": "Czytaj więcej",
+    "close": "Zamknij"
+  },
+  "forms": {
+    "contactForm": {
+      "title": "Kontakt",
+      "name": "Imię i nazwisko",
+      "namePlaceholder": "Twoje imię i nazwisko",
+      "email": "E-mail",
+      "emailPlaceholder": "twoj.email@przyklad.pl",
+      "company": "Firma",
+      "companyPlaceholder": "Nazwa Twojej firmy",
+      "message": "Wiadomość",
+      "messagePlaceholder": "Twoja wiadomość...",
+      "submit": "Wyślij",
+      "submitting": "Wysyłanie...",
+      "gdprConsent": "Wyrażam zgodę na przetwarzanie danych osobowych",
+      "gdprLink": "Polityka prywatności"
+    },
+    "quickOrderForm": {
+      "title": "Formularz szybkiego zamówienia personelu",
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "company": "Firma",
+      "country": "Kraj",
+      "employeesCount": "Ilu pracowników potrzebujesz?",
+      "email": "Adres e-mail",
+      "phone": "Numer telefonu",
+      "comments": "Uwagi",
+      "commentsPlaceholder": "Dodatkowe informacje (opcjonalnie)",
+      "submit": "Wyślij zapytanie",
+      "submitting": "Wysyłanie zapytania...",
+      "gdprConsent": "Wyrażam zgodę na przetwarzanie danych osobowych",
+      "gdprLink": "Polityka prywatności"
+    },
+    "validation": {
+      "required": "To pole jest wymagane",
+      "emailInvalid": "Proszę podać prawidłowy adres e-mail",
+      "phoneInvalid": "Proszę podać prawidłowy numer telefonu",
+      "gdprRequired": "Musisz wyrazić zgodę na politykę prywatności"
+    },
+    "messages": {
+      "success": "Dziękujemy! Twoja wiadomość została wysłana pomyślnie.",
+      "error": "Wystąpił błąd. Proszę spróbować ponownie później.",
+      "thankYou": "Dziękujemy",
+      "thankYouMessage": "Skontaktujemy się wkrótce!"
+    }
+  },
+  "navigation": {
+    "home": "Start",
+    "about": "O nas",
+    "services": "Usługi",
+    "pricing": "Cennik",
+    "contact": "Kontakt",
+    "callCenter": "Usługi Call Center",
+    "advertising": "Usługi reklamowe i kampanie",
+    "recruitment": "Rekrutacja międzynarodowa"
+  },
+  "footer": {
+    "companyName": "Regent Partners Sp. z o.o.",
+    "address": "ul. Wynalazek 1B/206",
+    "city": "02-677 Warszawa, Polska",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "website": "Strona WWW",
+    "krs": "KRS",
+    "nip": "NIP",
+    "krsValue": "0001145892",
+    "nipValue": "5214099286",
+    "phoneValue": "+48 791 186 568",
+    "emailValue": "regantpartners@gmail.com",
+    "websiteValue": "www.regentpartners.pl",
+    "officeHours": "Godziny pracy",
+    "officeHoursValue": "9:00 – 18:00, pon.–pt.",
+    "quickLinks": "Szybkie linki",
+    "servicesTitle": "Usługi",
+    "socialMedia": "Media społecznościowe",
+    "legal": "Prawne",
+    "privacyPolicy": "Polityka prywatności",
+    "cookies": "Cookies",
+    "terms": "Regulamin",
+    "copyright": "© 2025 Regent Partners Sp. z o.o. Wszelkie prawa zastrzeżone."
+  },
+  "meta": {
+    "defaultTitle": "Regent Partners - Profesjonalne usługi B2B",
+    "defaultDescription": "Regent Partners oferuje profesjonalne usługi Call Center, reklamowe oraz międzynarodowej rekrutacji personelu. Zaufany partner B2B dla rozwoju biznesu."
+  },
+  "pages": {
+    "home": {
+      "title": "Witamy w Regent Partners Sp. z o.o.",
+      "metaTitle": "Regent Partners - Profesjonalne usługi Call Center, Reklamowe i Rekrutacyjne",
+      "metaDescription": "Witamy w Regent Partners. Oferujemy wysokiej jakości usługi Call Center, reklamowe oraz międzynarodowej rekrutacji personelu, aby pomóc firmom rozwijać się.",
+      "hero": {
+        "h1": "Witamy w Regent Partners Sp. z o.o.",
+        "text": "Witamy w Regent Partners Sp. z o.o. – zaufanym partnerze biznesowym oferującym profesjonalne usługi Call Center, reklamowe oraz międzynarodowej rekrutacji personelu. Pomagamy firmom rozwijać się, dostarczając usługi najwyższej jakości, zapewniając rzetelność kontraktową i solidne, międzynarodowe know-how. Nasi eksperci dbają o to, abyś mógł skoncentrować się na swojej podstawowej działalności, mając pewność, że zapewniamy Ci pełne wsparcie.",
+        "ctaPrimary": "Poproś o wycenę",
+        "ctaSecondary": "Szybkie zamówienie"
+      },
+      "whyChoose": {
+        "title": "Dlaczego warto wybrać Regent Partners?",
+        "internationalExpertise": {
+          "title": "Międzynarodowe doświadczenie",
+          "text": "Założona przez ekspertów z branży w 2024 roku, nasza firma wykorzystuje globalne doświadczenie i partnerstwa, aby oferować najlepsze rozwiązania. Nasza siedziba w Warszawie stanowi centrum łączące Cię z wielojęzycznymi talentami i możliwościami na rynkach zagranicznych."
+        },
+        "qualityReliability": {
+          "title": "Jakość i niezawodność",
+          "text": "Dostarczamy usługi na najwyższym poziomie jakości. Surowo przestrzegamy warunków umów oraz przepisów krajowych i międzynarodowych, dzięki czemu każdy projekt realizowany jest terminowo, w budżecie i w pełnej zgodności z prawem. Możesz nam zaufać – dotrzymujemy obietnic i zapewniamy pełną transparentność."
+        },
+        "comprehensiveServices": {
+          "title": "Wszechstronna oferta",
+          "text": "Od obsługi klienta, poprzez prowadzenie skutecznych kampanii marketingowych, aż po rekrutację personelu – Regent Partners to kompleksowe rozwiązania dopasowane do Twoich potrzeb."
+        }
+      },
+      "coreServices": {
+        "title": "Nasze kluczowe usługi",
+        "callCenter": {
+          "title": "Usługi Call Center",
+          "text": "Powierz nam komunikację z Twoimi klientami. Nasz wykwalifikowany, wielojęzyczny zespół zapewni sprawną obsługę połączeń przychodzących, kampanii wychodzących, helpdesku i nie tylko."
+        },
+        "advertising": {
+          "title": "Usługi reklamowe i kampanie",
+          "text": "Wzmocnij swoją markę dzięki naszym kompleksowym usługom reklamowym, obejmującym marketing online, tradycyjne media oraz kreatywne prowadzenie kampanii promocyjnych."
+        },
+        "recruitment": {
+          "title": "Rekrutacja międzynarodowa",
+          "text": "Zapełnij braki kadrowe dzięki naszym globalnym usługom rekrutacyjnym. Wyszukujemy wykwalifikowanych kandydatów na rynkach międzynarodowych i obsługujemy cały proces rekrutacji od początku do końca."
+        }
+      },
+      "closingCta": {
+        "text": "Postaw na rozwój swojego biznesu z Regent Partners. Profesjonalizm, przewaga konkurencyjna i globalny zasięg – wszystko to oferujemy, by wspierać sukces Twojej firmy.",
+        "button": "Kontakt"
+      }
+    },
+    "services": {
+      "title": "Usługi",
+      "metaTitle": "Nasze usługi - Call Center, Reklama i Rekrutacja",
+      "metaDescription": "Poznaj kompleksowe usługi B2B Regent Partners: rozwiązania Call Center, kampanie reklamowe oraz usługi międzynarodowej rekrutacji personelu.",
+      "hero": {
+        "h1": "Nasze usługi",
+        "text": "Regent Partners oferuje kompleksowy pakiet usług B2B, zaprojektowany z myślą o rozwoju Twojego biznesu. Poznaj nasze trzy główne obszary usług poniżej i dowiedz się, jak możemy wspierać Twój wzrost."
+      },
+      "cardCallCenter": {
+        "title": "Usługi Call Center",
+        "text": "Powierz nam komunikację z Twoimi klientami. Nasz wykwalifikowany, wielojęzyczny zespół zapewni sprawną obsługę połączeń przychodzących, kampanii wychodzących, helpdesku i nie tylko."
+      },
+      "cardAdvertising": {
+        "title": "Usługi reklamowe i kampanie",
+        "text": "Wzmocnij swoją markę dzięki naszym kompleksowym usługom reklamowym, obejmującym marketing online, tradycyjne media oraz kreatywne prowadzenie kampanii promocyjnych."
+      },
+      "cardRecruitment": {
+        "title": "Rekrutacja międzynarodowa",
+        "text": "Zapełnij braki kadrowe dzięki naszym globalnym usługom rekrutacyjnym. Wyszukujemy wykwalifikowanych kandydatów na rynkach międzynarodowych i obsługujemy cały proces rekrutacji od początku do końca."
+      }
+    },
+    "callCenter": {
+      "title": "Usługi Call Center",
+      "metaTitle": "Usługi Call Center - Regent Partners",
+      "metaDescription": "Profesjonalne rozwiązania call center: obsługa klienta, wsparcie techniczne, telemarketing i więcej. Wielojęzyczny zespół, obsługa 24/7.",
+      "hero": {
+        "h1": "Usługi Call Center",
+        "intro": "Nasze Usługi Call Center pomogą Twojej firmie zapewnić doskonałą obsługę klienta i sprawną komunikację. Regent Partners oferuje pełne spektrum rozwiązań call center – od obsługi posprzedażowej po telemarketing – dostosowanych do Twoich potrzeb. Zlecając nam obsługę Call Center, zyskujesz wielojęzyczny, wykwalifikowany zespół oraz nowoczesną infrastrukturę, bez konieczności organizowania tych zasobów we własnym zakresie."
+      },
+      "overview": {
+        "title": "Opis usługi",
+        "text": "Prowadzimy zarówno kampanie przychodzące, jak i wychodzące. Odbieramy i obsługujemy połączenia od Twoich klientów, udzielamy wsparcia technicznego, wykonujemy połączenia wychodzące (sprzedaż, umawianie spotkań), prowadzimy kampanie telemarketingowe, ankiety i wiele więcej. Współczesne usługi call center to znacznie więcej niż tylko odbieranie telefonów – stajemy się strategicznym przedłużeniem Twojego zespołu obsługi klienta, dbając o to, by każdy kontakt z Twoją firmą był pozytywny i profesjonalny."
+      },
+      "benefits": {
+        "title": "Kluczowe korzyści dla klientów B2B",
+        "multilingual": {
+          "title": "Atut wielojęzyczności",
+          "text": "Nasi konsultanci mówią w wielu językach, co umożliwia obsługę klientów z różnych rynków. Dzięki międzynarodowym partnerstwom możemy komunikować się m.in. w języku angielskim, polskim, rumuńskim, rosyjskim i innych. (Przykładowo, Mołdawia słynie z wielojęzycznych specjalistów znających angielski, francuski, włoski czy niemiecki – my korzystamy z tych atutów poprzez naszą sieć). Zapewniamy płynną komunikację z Twoimi klientami, bez względu na ich lokalizację czy język."
+        },
+        "trainedTeam": {
+          "title": "Wykwalifikowany zespół",
+          "text": "Jesteśmy dumni z naszych doświadczonych pracowników call center. Nasz zespół to starannie dobrani i przeszkoleni profesjonaliści, którzy potrafią sprawnie rozwiązywać nawet złożone zapytania i problemy klientów, gwarantując ich satysfakcję. Prowadzimy rygorystyczne szkolenia i kontrolę jakości – dzięki temu każda rozmowa przebiega sprawnie i uprzejmie, wzmacniając wizerunek Twojej firmy przy każdym kontakcie."
+        },
+        "technology": {
+          "title": "Nowoczesna technologia",
+          "text": "Regent Partners wykorzystuje najnowocześniejsze technologie call center, aby zoptymalizować pracę i zwiększyć efektywność. Korzystamy m.in. z automatycznych systemów kolejkowania połączeń, integracji z CRM, nagrywania rozmów i analiz danych. Nasza niezawodna infrastruktura telekomunikacyjna gwarantuje nieprzerwaną obsługę – klienci dodzwonią się do nas o każdej porze, 24/7, bez ryzyka awarii czy długiego czekania."
+        },
+        "scalable": {
+          "title": "Oszczędność kosztów i skalowalność",
+          "text": "Powierzając nam obsługę klienta, możesz znacząco obniżyć koszty operacyjne. Oszczędzasz na rekrutacji, szkoleniach i sprzęcie, korzystając z naszych zasobów i sprawdzonych procesów. Oferujemy elastyczne skalowanie – jeśli potrzebujesz zwiększyć liczbę konsultantów w sezonie lub podczas kampanii promocyjnej, szybko zapewnimy dodatkowe siły. Gdy ruch jest mniejszy, płacisz tylko za faktycznie wykorzystane godziny pracy. Taka elastyczność gwarantuje maksymalną efektywność kosztową i wysoki zwrot z inwestycji."
+        },
+        "focus": {
+          "title": "Skupienie na podstawowej działalności",
+          "text": "Dzięki przekazaniu nam obsługi Call Center, Twój wewnętrzny zespół może skupić się na kluczowych obszarach działalności (np. rozwój produktu, sprzedaż), zamiast zajmować się codzienną obsługą klienta. To my zarządzamy bieżącą obsługą i raportowaniem, a Ty zachowujesz pełną kontrolę nad wskaźnikami jakości. Pozwala to odciążyć pracowników, poprawić produktywność i skupić się na strategii rozwoju, mając pewność, że Twoi klienci są w dobrych rękach."
+        }
+      },
+      "servicesInclude": {
+        "title": "Nasze usługi Call Center obejmują",
+        "customerSupport": {
+          "title": "Obsługa klienta (Customer Support)",
+          "text": "Nasi przyjaźni i kompetentni konsultanci przez całą dobę (24/7) odbierają telefony i odpowiadają na pytania Twoich klientów. Zapewniamy szybkie udzielenie pomocy, efektywne rozwiązywanie zgłoszeń oraz indywidualne podejście, dzięki czemu każdy klient czuje się ważny i zaopiekowany. To przekłada się na wzrost ich satysfakcji i lojalności wobec Twojej marki."
+        },
+        "technicalSupport": {
+          "title": "Wsparcie techniczne (Help Desk)",
+          "text": "Zapewniamy profesjonalną pomoc techniczną dla użytkowników Twoich produktów lub usług. Nasi wykwalifikowani specjaliści IT sprawnie diagnozują problemy i prowadzą klientów przez proces rozwiązywania usterek. Niezależnie czy chodzi o wsparcie programistyczne, czy pomoc w obsłudze urządzeń, rozwiązujemy problemy efektywnie, minimalizując przestoje po stronie klienta."
+        },
+        "telemarketing": {
+          "title": "Telemarketing i sprzedaż wychodząca",
+          "text": "Nasz zespół telemarketerów realizuje aktywne kampanie telefoniczne, aby generować leady i zwiększać sprzedaż w Twojej firmie. Wykonujemy połączenia cold call do potencjalnych klientów, kontaktujemy się z obecnymi klientami w celu dosprzedaży (upsellingu) lub przedłużenia umów, a także prowadzimy kampanie informacyjne. Wszystko to robimy z zachowaniem najwyższych standardów profesjonalizmu, dbając o wizerunek Twojej firmy podczas każdej rozmowy. Przeprowadzamy również telefoniczne badania rynku i ankiety satysfakcji, zbierając cenne dane marketingowe, które pomogą Ci lepiej zrozumieć klientów i dostosować strategię."
+        },
+        "orderProcessing": {
+          "title": "Przyjmowanie zamówień i infolinie",
+          "text": "Prowadzimy infolinie sprzedażowe i obsługowe, na których przyjmujemy zamówienia lub rezerwacje od Twoich klientów. Może to obejmować obsługę zamówień w sklepie internetowym składanych telefonicznie, rejestrację uczestników na eventy, czy udzielanie informacji na dedykowanej infolinii. Nasi konsultanci dokładnie przyjmują wszystkie potrzebne dane i wprowadzają je do systemu, zapewniając płynny przebieg procesu oraz zadowolenie klienta."
+        },
+        "afterSales": {
+          "title": "Obsługa posprzedażowa",
+          "text": "Nasza rola nie kończy się na zamknięciu sprzedaży. Zapewniamy wsparcie posprzedażowe – oddzwaniamy do klientów z pytaniem o zadowolenie z produktu/usługi, pomagamy umawiać wizyty serwisowe lub instalacyjne, przypominamy o kończących się abonamentach itp. Taka proaktywna obsługa pomaga utrzymać wysoki poziom satysfakcji klientów, buduje z nimi długotrwałe relacje i zwiększa szanse na ponowne skorzystanie z Twojej oferty."
+        }
+      },
+      "conclusion": {
+        "text": "Korzystając z usług Call Center Regent Partners, zyskujesz partnera, który z zaangażowaniem reprezentuje Twoją firmę w każdym kontakcie z klientem. Rozumiemy, że nasze działania bezpośrednio wpływają na reputację Twojej marki, dlatego działamy z taką samą starannością i dbałością o szczegóły, jakiej wymagasz od własnego zespołu. Pozwól nam usprawnić komunikację z Twoimi klientami, rozszerzyć zasięg Twojej obsługi na rynki zagraniczne dzięki wielojęzycznemu wsparciu i ostatecznie – pomóc w rozwoju Twojego biznesu poprzez doskonałą obsługę klienta."
+      },
+      "caseStudy": {
+        "title": "Przykład sukcesu klienta",
+        "text": "(Scenariusz poglądowy) Jeden z naszych klientów z branży e-commerce odnotował 20% wzrost poziomu zadowolenia klientów w ciągu 3 miesięcy od zlecenia nam obsługi klienta. Dzięki zapewnieniu całodobowej, wielojęzycznej infolinii oraz skróceniu czasu oczekiwania na połączenie, pomogliśmy zamienić sfrustrowanych dzwoniących w lojalnych klientów. Możemy osiągnąć podobne rezultaty dla Twojej firmy, tworząc rozwiązanie wsparcia dostosowane do Twoich celów."
+      },
+      "cta": {
+        "text": "Wzmocnij komunikację z klientami dzięki Regent Partners. Nasz profesjonalny zespół Call Center jest gotów stać się głosem Twojej firmy, zamieniając każdy kontakt z klientem w okazję do budowania satysfakcji i sukcesu.",
+        "button": "Skontaktuj się"
+      }
+    },
+    "advertising": {
+      "title": "Usługi reklamowe i kampanie",
+      "metaTitle": "Usługi reklamowe i kampanie - Regent Partners",
+      "metaDescription": "Kompleksowe usługi reklamowe i zarządzanie kampaniami: marketing cyfrowy, media tradycyjne, projektowanie graficzne, zarządzanie mediami społecznościowymi i więcej.",
+      "hero": {
+        "h1": "Usługi reklamowe i kampanie"
+      },
+      "whatWeOffer": {
+        "title": "Co oferujemy",
+        "text": "Nasze usługi reklamowe są kompleksowe i obejmują zarówno marketing cyfrowy (online), jak i tradycyjne kanały reklamy. Rozumiemy, że skuteczna kampania często wymaga miksu mediów, dlatego nie ograniczamy się jedynie do marketingu internetowego – w razie potrzeby włączamy również działania offline, takie jak reklama drukowana, spoty radiowe/telewizyjne czy billboardy zewnętrzne. Takie multikanałowe podejście pozwala nam sprostać wysokim oczekiwaniom klientów i stale poszerzać ofertę zgodnie z trendami rynkowymi."
+      },
+      "serviceComponents": {
+        "title": "Elementy naszej oferty",
+        "strategy": {
+          "title": "Strategia reklamowa i konsulting",
+          "text": "Każda udana kampania zaczyna się od przemyślanej strategii. Nasi specjaliści ds. marketingu współpracują z Tobą, aby przeanalizować Twoją grupę docelową, pozycję rynkową i cele biznesowe. Na tej podstawie opracowujemy dopasowany plan reklamowy, który precyzyjnie dobiera optymalne kanały i przekazy. Niezależnie od tego, czy chcesz budować świadomość marki, czy generować natychmiastowe leady sprzedażowe – wytyczymy jasną ścieżkę, jak to osiągnąć. (Oferujemy także konsultacje marketingowe jako osobną usługę – np. doradztwo w zakresie brandingu czy wejścia na nowy rynek – bazując na naszym bogatym know-how.)"
+        },
+        "creative": {
+          "title": "Kreacja kampanii reklamowych",
+          "text": "Nasz zespół kreatywny opracuje atrakcyjne treści reklamowe i materiały wizualne, które przemówią do Twoich odbiorców. Obejmuje to copywriting (hasła, teksty reklam, scenariusze spotów), projektowanie graficzne materiałów cyfrowych i drukowanych oraz produkcję materiałów marketingowych. Dbamy o to, by wszystkie elementy kampanii były spójne z tożsamością Twojej marki i niosły jednolite, silne przesłanie. „Odpowiednia reklama to podstawa prawidłowego funkcjonowania każdej działalności\" – kierując się tą zasadą, tworzymy kreacje, które przyciągają uwagę i jasno komunikują wartość Twojej oferty."
+        },
+        "digital": {
+          "title": "Kampanie w mediach cyfrowych",
+          "text": "W dzisiejszych czasach obecność online jest kluczowa. Prowadzimy kompleksowe kampanie reklamowe online: od reklam w Google (Google Ads, kampanie w sieci wyszukiwania i display), przez reklamę w mediach społecznościowych (Facebook, LinkedIn, Instagram itp.), po banery na portalach internetowych. Nasz zespół zajmuje się pełną obsługą – konfiguracją kampanii, jej bieżącą optymalizacją (testy A/B, dostosowanie budżetu, kierowanie na odpowiednie grupy) oraz analizą wyników. Wykorzystujemy podejście oparte na danych, aby zmaksymalizować Twój zwrot z inwestycji – precyzyjnie targetujemy reklamy, docierając do odbiorców o cechach i zainteresowaniach, które najlepiej rokują konwersją. Zlecając nam kampanie cyfrowe, zyskujesz dostęp do doświadczonych marketerów i zaawansowanych narzędzi bez konieczności utrzymywania takiego zespołu wewnętrznie. Śledzimy na bieżąco zmiany algorytmów i trendów, dzięki czemu Twoje reklamy online pozostają skuteczne i aktualne."
+        },
+        "socialMedia": {
+          "title": "Media społecznościowe",
+          "text": "W ramach działań reklamowych możemy również zarządzać Twoimi profilami w mediach społecznościowych jako wsparcie kampanii płatnych. Oznacza to tworzenie angażujących postów, prowadzenie stron (fanpage'y) na Facebooku czy LinkedIn oraz interakcję z obserwującymi, aby budować społeczność skupioną wokół Twojej marki. Aktywne i spójne prowadzenie social media wzmacnia efekty reklam płatnych, budując zaufanie do marki i jej wizerunek ekspercki."
+        },
+        "traditional": {
+          "title": "Reklama w mediach tradycyjnych",
+          "text": "Regent Partners planuje i wykupuje również media w tradycyjnych kanałach reklamowych. Możemy zaprojektować i zamieścić Twoje ogłoszenia w gazetach i czasopismach, wyprodukować spoty radiowe lub telewizyjne oraz zorganizować reklamę zewnętrzną (billboardy, citylighty, reklama tranzytowa na pojazdach). Przykładowo, jesteśmy w stanie przygotować i przeprowadzić kampanię prasową w branżowych magazynach lub lokalnej prasie, a także zająć się reklamą zewnętrzną na billboardach czy banerach wielkoformatowych, jak również oklejaniem autobusów lub samochodów logo Twojej firmy. Łącząc działania online i offline, zapewniamy kampanii szeroki zasięg i wielokrotny kontakt z potencjalnym klientem. Takie 360-stopniowe podejście wyróżnia nas na tle firm skupiających się tylko na jednym medium – tak jak Regent Partners, wiele czołowych agencji dziś wykracza poza marketing online, sięgając również po reklamy offline, by zmaksymalizować efekt."
+        },
+        "eventMarketing": {
+          "title": "Reklama zewnętrzna i marketing eventowy",
+          "text": "Oprócz statycznych reklam outdoor, wspieramy też działania promocyjne w terenie oraz marketing eventowy. Jeśli planujesz udział w targach lub sponsorujesz eventy, pomożemy Ci w przygotowaniu stoisk, roll-upów, banerów i materiałów promocyjnych, które przyciągną uwagę. Zajmujemy się tworzeniem stoisk i konstrukcji wystawienniczych, dbając o to, by Twoja marka wyróżniała się na wydarzeniu. Organizujemy także dystrybucję ulotek czy próbek – nasz zespół może skoordynować lub nadzorować akcje ulotkowe i samplingowe, docierając do określonych lokalizacji i grup odbiorców."
+        },
+        "promotional": {
+          "title": "Kampanie promocyjne i programy lojalnościowe",
+          "text": "Aby pomóc Ci pozyskać, utrzymać i zaangażować klientów, realizujemy kampanie promocyjne i programy lojalnościowe. Może to być np. akcja rabatowa na sezon, konkurs dla klientów czy wdrożenie programu lojalnościowego dla stałych klientów. Potrafimy zaprojektować i obsłużyć program lojalnościowy dostosowany do Twojego biznesu – stworzymy karty członkowskie, system naliczania punktów i promocje dla lojalnych klientów. Doradzamy również i wdrażamy systemy punktów premiowych lub programy poleceń (referral), aby zwiększyć wartość życiową klienta i zachęcić do powrotu. Wszystkie te inicjatywy mają na celu budowanie zaangażowania klientów i zachęcanie ich do ponownych zakupów."
+        },
+        "research": {
+          "title": "Badania rynku i analiza",
+          "text": "Kampania jest tak skuteczna, jak wiedza, która za nią stoi. Dlatego oferujemy usługi badań rynku, aby dostarczyć informacji niezbędnych do skutecznej reklamy. Możemy przeprowadzić analizy potencjału rynkowego, badania zachowań konsumentów oraz sondaże opinii, które pomogą dopracować strategię marketingową. Na przykład, jesteśmy w stanie zbadać opinię publiczną na temat Twojego produktu lub oferty pracy, warunków pracy czy preferencji klientów, co pozwoli Ci lepiej dostosować ofertę lub przekaz reklamowy. Po zakończonych kampaniach dokonujemy również analizy wyników (dane sprzedażowe, reakcje z ankiet, statystyki internetowe), aby ocenić sukces i wyciągnąć wnioski na przyszłość."
+        }
+      },
+      "competitiveBenefits": {
+        "title": "Konkurencyjne korzyści",
+        "intro": "Wybierając Regent Partners do obsługi reklamy, zyskujesz dział marketingu o szerokich kompetencjach, bez stałych kosztów utrzymania. Inwestujemy w aktualną wiedzę o trendach i narzędziach marketingowych, dzięki czemu Ty nie musisz tego robić. Oto konkretne atuty, które zapewniamy:",
+        "branding": "Zapewniamy spójność marki we wszystkich kanałach – Twoje kampanie online i offline będą miały jednolitą kreację i przekaz, co wzmacnia rozpoznawalność marki.",
+        "international": "Nasze doświadczenie na rynkach międzynarodowych pomaga w dostosowaniu kampanii do różnych regionów i kultur, jeśli targetujesz klientów poza Polską. Wiemy, jak lokalizować treści (np. językowo, kulturowo), by Twoje reklamy były skuteczne globalnie.",
+        "agile": "Regent Partners działa zwinnie i jest nastawiony na wyniki. Monitorujemy przebieg kampanii w czasie rzeczywistym i potrafimy szybko korygować strategię, jeśli zajdzie taka potrzeba. Jeżeli któraś reklama nie spełnia oczekiwań lub pojawi się nowa szansa (np. viral trend, święto branżowe), reagujemy natychmiast, by zoptymalizować szanse sukcesu kampanii.",
+        "reporting": "Gwarantujemy przejrzyste raportowanie. Otrzymasz od nas szczegółowe raporty kluczowych wskaźników (dla online m.in. wyświetlenia, kliknięcia, konwersje, koszty na pozyskany lead; dla offline – szacowany zasięg, reakcje). Dodatkowo dostarczamy wnioski i rekomendacje – nie tylko surowe dane – tak abyś dokładnie rozumiał zwrot z inwestycji.",
+        "integrated": "Współpracując z nami, unikasz konieczności zatrudniania wielu wyspecjalizowanych agencji (osobno od digitalu, osobno od druku itp.). Nasze zintegrowane podejście jest oszczędne kosztowo i gwarantuje, że wszystkie elementy kampanii ze sobą współgrają."
+      },
+      "pricingApproach": {
+        "title": "Nasze podejście do cen",
+        "text": "Stosujemy elastyczny model wyceny usług reklamowych. W zależności od preferencji klienta, możemy pracować za ustaloną z góry stawkę za projekt (np. określona kampania), w modelu miesięcznego abonamentu (gdy zarządzamy marketingiem w sposób ciągły) lub nawet częściowo prowizyjnie przy niektórych kampaniach nastawionych na wynik (performance marketing). Posiadamy przejrzysty cennik (patrz sekcja Cennik) określający stawki za standardowe jednostki, takie jak \"za kampanię\" czy \"za reklamę\", oparty na rzeczywistych danych projektowych. Taka transparentność ułatwia Ci planowanie budżetu i eliminuje nieprzewidziane koszty.",
+        "linkText": "Zobacz nasz Cennik"
+      },
+      "exampleCampaign": {
+        "title": "Przykładowa kampania",
+        "text": "(Ilustracja) Klient z branży hotelarskiej chciał zwiększyć obłożenie w sezonie zimowym. Regent Partners przygotował kampanię multikanałową: serię celowanych reklam w mediach społecznościowych promujących zimową zniżkę, mailing do bazy dotychczasowych gości oraz spoty w lokalnej rozgłośni radiowej. Stworzyliśmy również kod rabatowy do rezerwacji online i śledziliśmy jego użycie. Wynik to 30% wzrost rezerwacji poza sezonem i wysoki zwrot z wydatków na reklamę. Klient docenił spójność kreacji na Facebooku, w e-mailach i w radiu – wszystko przygotowane przez nasz zespół – oraz klarowne raporty pokazujące dokładnie, ile rezerwacji przyniósł każdy kanał."
+      },
+      "conclusion": {
+        "text": "Od koncepcji po realizację, Regent Partners bierze na siebie ciężar prowadzenia działań reklamowych, a Ty możesz cieszyć się efektami profesjonalnej kampanii, nie odrywając własnych zasobów od ich codziennych zadań. Niezależnie czy potrzebujesz jednorazowego wsparcia marketingowego, czy stałej obsługi reklamowej, posiadamy narzędzia, talent i determinację, by Twoja marka zabłysła, a Twój biznes rósł."
+      }
+    },
+    "pricing": {
+      "title": "Cennik",
+      "metaTitle": "Przejrzysty cennik - Regent Partners",
+      "metaDescription": "Zobacz nasz przejrzysty cennik usług Call Center, reklamowych oraz międzynarodowej rekrutacji personelu. Uczciwe ceny oparte na rzeczywistych stawkach projektowych.",
+      "intro": "W Regent Partners stawiamy na przejrzyste i uczciwe ceny. Poniżej znajduje się nasz cennik głównych usług, oparty na rzeczywistych stawkach projektowych i danych z faktur. Wszystkie ceny podane są w euro (EUR) i są to kwoty netto (bez podatku VAT). Te standardowe stawki mogą służyć jako wytyczne do budżetowania; jednak zawsze jesteśmy otwarci na dyskusję dotyczącą indywidualnych rozwiązań lub rabatów za duże zamówienia dostosowanych do konkretnych potrzeb klienta.",
+      "callCenter": {
+        "title": "Usługi Call Center",
+        "item1": {
+          "name": "Obsługa Call Center (połączenia przychodzące/wychodzące)",
+          "price": "7,84 € za godzinę",
+          "unit": "Godzina pracy agenta call center",
+          "description": "Ta stawka obejmuje jednego przeszkolonego agenta call center obsługującego połączenia przychodzące lub wykonującego połączenia wychodzące przez jedną godzinę. Obejmuje to obsługę klienta, telemarketing, helpdesk lub podobne aktywności związane z rozmowami. W przypadku projektów na dużą skalę lub długoterminowych możemy negocjować indywidualne pakiety cenowe.",
+          "example": "Przykład: 1246 godzin usług call center w miesiącu kosztowałoby 7,84 € × 1246 = 9 768,64 € netto."
+        }
+      },
+      "advertising": {
+        "title": "Usługi reklamowe i kampanie",
+        "intro": "Oferujemy zarówno indywidualne usługi reklamowe, jak i pełne pakiety kampanii. Poniżej znajdują się typowe pozycje usług z cenami.",
+        "items": [
+          {
+            "name": "Kompleksowa kampania reklamowa (opracowanie i realizacja)",
+            "price": "2 660 € za kampanię",
+            "unit": "Za kompleksową kampanię (cena stała)",
+            "description": "Kompleksowe opracowanie i wdrożenie kampanii reklamowej. Obejmuje to strategię kampanii, projektowanie kreatywne, planowanie mediów i wdrożenie w wybranych kanałach. Nadaje się do kompleksowej akcji marketingowej lub premiery produktu."
+          },
+          {
+            "name": "Kampania reklamowa online (Internet i social media)",
+            "price": "351,50 € za kampanię",
+            "unit": "Za kampanię online",
+            "description": "Tworzenie i umieszczanie reklam online (np. na portalach internetowych, w mediach społecznościowych, Google Ads itp.). Zazwyczaj obejmuje projektowanie banerów reklamowych lub reklam w mediach społecznościowych i prowadzenie kampanii przez określony czas. Idealne dla ukierunkowanych działań marketingowych w internecie i mediach społecznościowych."
+          },
+          {
+            "name": "Reklama w radio/TV/drukowanych mediach",
+            "price": "456 € za kampanię",
+            "unit": "Za kampanię medialną (standardowy zakup mediów)",
+            "description": "Tworzenie i umieszczanie reklam w gazetach, czasopismach, radiu lub telewizji. Cena obejmuje tworzenie kreatywne i koordynację umieszczenia jednej kampanii reklamowej w tradycyjnych mediach."
+          },
+          {
+            "name": "Doradztwo marketingowe i strategia kampanii",
+            "price": "4,28 € za godzinę",
+            "unit": "Za godzinę konsultacji (lub pakietowo za projekt)",
+            "description": "Usługi doradcze w zakresie reklamy i marketingu. Może to obejmować planowanie kampanii, konsulting w zakresie brandingu lub opracowanie strategii marketingowej."
+          },
+          {
+            "name": "Reklama zewnętrzna (billboardy/oznakowania)",
+            "price": "33,25 € za jednostkę",
+            "unit": "Za billboard lub plakat zewnętrzny",
+            "description": "Projektowanie i umieszczanie reklam zewnętrznych, takich jak billboardy, banery budynkowe lub oznakowania. Cena to średni koszt produkcji i instalacji standardowej reklamy zewnętrznej."
+          },
+          {
+            "name": "Reklama na pojazdach (oklejanie/nalepki)",
+            "price": "13,78 € za pojazd",
+            "unit": "Za reklamę na pojeździe",
+            "description": "Nakładanie reklamowych naklejek lub pełnych oklejeń na samochody, autobusy lub inne pojazdy. Cena obejmuje projekt i montaż na jednym pojeździe."
+          },
+          {
+            "name": "Ulotki/broszury",
+            "price": "0,06 € za sztukę",
+            "unit": "Druk i podstawowy projekt",
+            "description": "Produkcja materiałów marketingowych, w tym drukowanie ulotek i podstawowy projekt."
+          },
+          {
+            "name": "Direct mail",
+            "price": "0,95 € za odbiorcę",
+            "unit": "Zarządzanie kampanią direct mail",
+            "description": "Kampanie direct mail po cenie za adres docelowy (z wyłączeniem kosztów wysyłki)."
+          },
+          {
+            "name": "Dystrybucja próbek/materiałów",
+            "price": "0,02 € za sztukę",
+            "unit": "Dystrybucja materiałów promocyjnych lub próbek na sztukę",
+            "description": "Dystrybucja materiałów promocyjnych lub próbek (z wyłączeniem kosztu produktu)."
+          },
+          {
+            "name": "Prowadzenie kampanii (pozyskanie/lojalność)",
+            "price": "1 995 € za kampanię",
+            "unit": "Za kampanię (cena stała)",
+            "description": "Prowadzenie złożonych kampanii marketingowych mających na celu pozyskanie, utrzymanie lub zaangażowanie użytkowników. Na przykład wieloetapowe kampanie promocyjne, programy lojalnościowe lub programy punktów premiowych itp."
+          }
+        ],
+        "note": "Powyższe ceny za usługi reklamowe mają charakter orientacyjny. Możemy dostosować wyceny na podstawie zakresu kampanii, kosztów mediów i konkretnych wymagań klienta."
+      },
+      "recruitment": {
+        "title": "Usługi rekrutacji międzynarodowej",
+        "items": [
+          {
+            "name": "Rekrutacja międzynarodowa (success fee)",
+            "price": "Zwykle równowartość 1-miesięcznego wynagrodzenia lub 15–20% rocznej pensji",
+            "unit": "Za każdego pomyślnie zatrudnionego kandydata (dokładna opłata dostosowana do projektu)",
+            "description": "Zazwyczaj działamy w modelu success fee w przypadku rekrutacji. Opłata za umieszczenie jest często równa procentowi uzgodnionego rocznego wynagrodzenia zatrudnionego kandydata lub stałej opłacie w przybliżeniu równej jednemu miesiącowi płacy. Dokładny procent lub kwota zależy od trudności roli, liczby zatrudnień i typu umowy (tymczasowa lub stała). Ta opłata obejmuje cały proces rekrutacji: wyszukiwanie, weryfikację, koordynację formalności prawnych itp."
+          },
+          {
+            "name": "Praca tymczasowa / Staff leasing",
+            "price": "Płaca + marża agencji",
+            "unit": "Za pracownika za godzinę lub miesiąc (wycena indywidualna)",
+            "description": "Jeśli angażujesz pracowników przez nas na podstawie tymczasowej lub leasingowej, cena zazwyczaj składa się z wynagrodzenia pracownika plus marży serwisowej. Wszystkie takie ustalenia są wyceniane indywidualnie, ponieważ zależą od rodzaju pracy, czasu trwania umowy i wymagań podatkowych lokalnego prawa pracy."
+          },
+          {
+            "name": "Zezwolenia na pracę",
+            "price": "Wliczone w opłatę za umieszczenie (lub osobno ~100–200 € za sprawę)",
+            "unit": "Usługa osobna, jeśli nie wliczona w umieszczenie",
+            "description": "Obsługa wszystkich procesów administracyjnych związanych z zezwoleniami na pracę i autoryzacją zatrudnienia."
+          },
+          {
+            "name": "Wsparcie relokacyjne (podróże i zakwaterowanie)",
+            "price": "Koszt + 10% opłaty serwisowej",
+            "unit": "Rzeczywiste bilety lotnicze, zakwaterowanie itp. z opłatą manipulacyjną",
+            "description": "Organizujemy transport (bilety lotnicze, kolejowe lub autobusowe) i pomagamy w zapewnieniu początkowego zakwaterowania dla zatrudnionych pracowników."
+          },
+          {
+            "name": "Wdrożenie/szkolenia",
+            "price": "4,56 € za godzinę",
+            "unit": "Jeśli potrzebne wsparcie/szkolenia na miejscu",
+            "description": "Zapewnianie tłumacza lub trenera do wstępnej orientacji pracowników, procedur bezpieczeństwa, polityki firmy itp."
+          }
+        ],
+        "note": "Zapewniamy, że wszystkie ceny rekrutacji są wyjaśnione w naszej ofercie i umowie. Bez ukrytych opłat – dokładnie będziesz wiedział, ile kosztuje każde zatrudnienie lub usługa, zanim przystąpimy do działania."
+      },
+      "other": {
+        "title": "Badania rynku i inne usługi",
+        "intro": "Oprócz głównych linii usług oferujemy także badania rynku, PR, wsparcie administracyjne itp. Ceny za te usługi są dostępne na zapytanie. Poniżej znajduje się kilka punktów odniesienia:",
+        "items": [
+          {
+            "name": "Badania rynku i ankiety",
+            "price": "4,56 € za godzinę",
+            "unit": "Praca analityka badawczego",
+            "description": "Przeprowadzanie ankiet, analizowanie danych. Jeśli potrzebne jest pełne badanie rynku, przedstawimy wycenę projektu."
+          },
+          {
+            "name": "Sondowanie opinii publicznej (specjalistyczne)",
+            "price": "7,84 € za godzinę",
+            "unit": "Za złożone ankiety terenowe",
+            "description": "Specjalistyczne ankiety, np. mierzenie satysfakcji pracowników z warunków. Ta wyższa stawka uwzględnia nadzór specjalisty."
+          },
+          {
+            "name": "Doradztwo PR",
+            "price": "332,50 € za wyjazd/dzień lub 665 € miesięcznie",
+            "unit": "Usługi konsultingowe lub reprezentacyjne",
+            "description": "Zadania konsultingowe lub reprezentacyjne w zakresie międzynarodowego PR lub komunikacji. Dokładna cena zależy od zakresu."
+          },
+          {
+            "name": "Usługi wsparcia administracyjnego",
+            "price": "332,50 € miesięcznie (podstawowe) / 475 € miesięcznie (zaawansowane)",
+            "unit": "Pakiety codziennych usług sekretarskich lub zaawansowana koordynacja administracyjna",
+            "description": "Połączone usługi sekretarskie lub outsourcing zaplecza biurowego. Może to obejmować usługi recepcji, wsparcie w fakturowaniu, administrację HR itp. jako pakiet."
+          }
+        ],
+        "note": "Powyższe ceny dodatkowe pochodzą z rozszerzonej listy usług w załączniku do umowy. Mogą być świadczone, jeśli są istotne dla potrzeb klienta."
+      },
+      "terms": {
+        "title": "Warunki i zasady",
+        "vatNote": "Wszystkie ceny są netto (VAT zostanie doliczony tam, gdzie ma zastosowanie, zgodnie z polskim i unijnym prawem podatkowym). W przypadku usług transgranicznych mogą mieć zastosowanie mechanizmy odwrotnego obciążenia VAT lub inne.",
+        "invoiceNote": "Zazwyczaj fakturowanie odbywa się miesięcznie dla trwających usług (takich jak godziny call center lub staff leasing) oraz według kamieni milowych lub kampanii dla usług opartych na projektach (takich jak kampania reklamowa lub zakończona rekrutacja).",
+        "discounts": "Można negocjować rabaty za duże zamówienia lub rabaty za długoterminowe umowy. Na przykład zobowiązanie się do ponad 1000 godzin call center miesięcznie lub prowadzenie wielu kampanii reklamowych w pakiecie może uprawniać do obniżonych stawek.",
+        "transparency": "Zobowiązujemy się do przejrzystości – powyższe ceny pochodzą z rzeczywistych komponentów usług i nigdy nie pobieramy ukrytych opłat. Jeśli pojawią się jakiekolwiek dodatkowe koszty (na przykład opłaty rządowe za wizy, koszty zakupu mediów itp.), zostaną one wyraźnie zakomunikowane i przekazane po kosztach lub wcześniej zatwierdzone z Tobą.",
+        "disclaimer": "Ceny mogą się różnić w zależności od zakresu projektu, wielkości i konkretnych wymagań. Wszystkie ceny mają charakter orientacyjny i mogą ulec zmianie. Prosimy o kontakt w celu uzyskania indywidualnej wyceny dostosowanej do Twoich potrzeb."
+      },
+      "contact": "Jeśli masz jakiekolwiek pytania dotyczące naszych cen lub potrzebujesz indywidualnej wyceny, skontaktuj się z nami. Chętnie przedstawimy szczegółową ofertę dostosowaną do Twoich konkretnych potrzeb i budżetu."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "metaTitle": "Skontaktuj się z Regent Partners - Napisz do nas",
+      "metaDescription": "Skontaktuj się z Regent Partners w Warszawie, Polska. Napisz w sprawie zapytań, konsultacji lub aby omówić, jak możemy wspierać Twój biznes.",
+      "intro": "Zapraszamy do kontaktu z Regent Partners w sprawie zapytań, konsultacji lub omówienia, jak możemy wspierać Twój biznes. Nasz zespół jest gotowy, aby Ci pomóc i dostarczyć wszelkich potrzebnych informacji. Możesz skontaktować się z nami następującymi kanałami:",
+      "info": {
+        "title": "Dane firmowe",
+        "companyName": "Regent Partners Sp. z o.o.",
+        "address": "ul. Wynalazek 1B/206",
+        "city": "02-677 Warszawa, Polska",
+        "phone": "Telefon",
+        "email": "E-mail",
+        "website": "Strona WWW",
+        "registration": "Regent Partners jest zarejestrowana w Polsce pod numerem KRS {krs}, NIP {nip}.",
+        "krs": "KRS",
+        "nip": "NIP"
+      },
+      "officeHours": {
+        "title": "Godziny pracy",
+        "text": "Nasze godziny pracy to 9:00 – 18:00, poniedziałek–piątek. Staramy się odpowiadać na wszystkie e-maile w ciągu jednego dnia roboczego. W pilnych sprawach prosimy o bezpośredni kontakt telefoniczny."
+      },
+      "location": {
+        "title": "Lokalizacja",
+        "text": "Nasza siedziba główna znajduje się w dzielnicy Mokotów w Warszawie, w niewielkiej odległości od centrum miasta i lotniska Chopina. Jeśli chcesz nas odwiedzić w celu spotkania, prosimy o wcześniejszą rezerwację terminu, a chętnie przyjmiemy Cię w naszym biurze."
+      },
+      "directions": {
+        "title": "Mapa i dojazd",
+        "text": "Mapę do naszego biura można znaleźć poniżej. Znajdujemy się w kompleksie biurowym przy ul. Wynalazek 1B – szukaj budynku 1B, jesteśmy na drugim piętrze, biuro 206. Dla gości dostępny jest parking (prosimy poinformować nas o wizycie, abyśmy mogli zorganizować dostęp)."
+      },
+      "form": {
+        "intro": "Alternatywnie możesz użyć poniższego formularza kontaktowego. Wystarczy wypełnić swoje imię i nazwisko, e-mail, firmę i krótką wiadomość opisującą Twoje zapytanie. Przekierujemy Twoją wiadomość do odpowiedniego działu (sprzedaż, rekrutacja, wsparcie itp.) i szybko się z Tobą skontaktujemy."
+      },
+      "socialMedia": {
+        "text": "Śledź nas na LinkedIn i Facebook (linki dostępne na naszej stronie), aby otrzymywać aktualizacje dotyczące naszych usług, spostrzeżenia branżowe i wiadomości firmowe."
+      },
+      "closing": "Czekamy na Twój kontakt i z niecierpliwością czekamy na możliwość omówienia, jak Regent Partners może stać się Twoim partnerem w sukcesie. Skontaktuj się z nami już dziś i rozpocznijmy rozmowę o osiąganiu Twoich celów biznesowych razem."
+    },
+    "about": {
+      "title": "O nas",
+      "metaTitle": "O Regent Partners - Nasza misja, wartości i ekspertyza",
+      "metaDescription": "Dowiedz się więcej o Regent Partners Sp. z o.o. - zaufanym dostawcy usług B2B z siedzibą w Warszawie, specjalizującym się w komunikacji z klientem, marketingu i zasobach ludzkich.",
+      "companyProfile": {
+        "h1": "O nas",
+        "text": "Regent Partners Sp. z o.o. to polska spółka z ograniczoną odpowiedzialnością z siedzibą w Warszawie (ul. Wynalazek 1B/206, 02-677 Warszawa), działająca od 20 grudnia 2024 r. Firma powstała z jasną misją: pomagać przedsiębiorstwom osiągać sukces poprzez świadczenie najwyższej jakości usług B2B w zakresie komunikacji z klientem, marketingu oraz zasobów ludzkich. Nasz zespół łączy kompetencje w obszarach obsługi Call Center, kampanii reklamowych i międzynarodowej rekrutacji personelu, co pozwala nam kompleksowo wspierać klientów na wielu płaszczyznach."
+      },
+      "whoWeAre": {
+        "title": "Kim jesteśmy",
+        "text": "Jesteśmy dynamicznym zespołem profesjonalistów z międzynarodowym doświadczeniem i pasją do doskonałości. Każdy dział Regent Partners jest kierowany przez ekspertów z wieloletnim doświadczeniem w swojej dziedzinie – od zarządzania centrami obsługi klienta, przez kreatywną reklamę, po globalne pozyskiwanie talentów. Dzięki tej różnorodności kompetencji potrafimy całościowo podchodzić do wyzwań biznesowych i tworzyć zintegrowane rozwiązania."
+      },
+      "values": {
+        "title": "Nasze wartości",
+        "professionalism": {
+          "title": "Profesjonalizm i niezawodność",
+          "text": "Utrzymujemy najwyższe standardy profesjonalne w każdym realizowanym projekcie. Nasza zasada „rzetelność kontraktowa\" oznacza, że dotrzymujemy warunków umów i wywiązujemy się ze zobowiązań, budując zaufanie wśród naszych klientów."
+        },
+        "quality": {
+          "title": "Jakość usług",
+          "text": "Uważamy, że jakość jest fundamentem sukcesu. Niezależnie od tego, czy prowadzimy niewielką kampanię marketingową, czy duży projekt rekrutacyjny – przykładamy ogromną wagę do kontroli jakości, aby zapewnić znakomite rezultaty."
+        },
+        "knowHow": {
+          "title": "Międzynarodowe know-how",
+          "text": "Choć działamy lokalnie, myślimy globalnie. Dzięki współpracy z partnerami z różnych krajów i doświadczeniu zdobytemu na rynkach zagranicznych, wnosimy globalne spojrzenie na lokalne wyzwania. Nasza międzynarodowa wiedza przekłada się na innowacyjne strategie i skuteczną realizację projektów dla klientów."
+        },
+        "clientCentric": {
+          "title": "Orientacja na klienta",
+          "text": "Twoje cele biznesowe są dla nas najważniejsze. Dostosowujemy nasze usługi do indywidualnych potrzeb każdego klienta i zapewniamy spersonalizowane wsparcie. Gwarantujemy przejrzystą komunikację na każdym etapie współpracy i elastycznie reagujemy na Twój feedback, aby zapewnić pełne zadowolenie."
+        }
+      },
+      "whatWeDo": {
+        "title": "Czym się zajmujemy",
+        "intro": "Regent Partners oferuje trzy podstawowe grupy usług B2B:",
+        "callCenter": {
+          "title": "Usługi Call Center",
+          "text": "Przejmujemy obsługę Twoich kontaktów z klientami, zapewniając, że otrzymają oni przyjazną, szybką i skuteczną pomoc na każdym etapie."
+        },
+        "advertising": {
+          "title": "Usługi reklamowe i kampanie",
+          "text": "Działamy niczym zewnętrzny dział marketingu – projektujemy i prowadzimy kampanie, które wzmacniają wizerunek Twojej marki i pozyskują klientów, zarówno w internecie, jak i w tradycyjnych mediach."
+        },
+        "recruitment": {
+          "title": "Rekrutacja międzynarodowa",
+          "text": "Łączymy Cię z utalentowanymi pracownikami spoza kraju, zarządzając całym procesem rekrutacji od poszukiwań po wdrożenie, zawsze w pełnej zgodności z przepisami."
+        },
+        "conclusion": "Nasze kompleksowe podejście oznacza, że możesz skonsolidować wielu dostawców w jednym – zyskujesz jednego zaufanego partnera, który zaspokoi różnorodne potrzeby Twojego biznesu. Budujemy długofalowe relacje – współpracując z Regent Partners zyskujesz oddanego partnera, który inwestuje w sukces Twojej firmy."
+      },
+      "globalNetwork": {
+        "title": "Globalna sieć",
+        "text": "Choć nasza siedziba mieści się w Polsce, działamy na skalę międzynarodową. Współpracujemy z partnerami i specjalistami w całej Europie i poza nią, w tym na rynkach wschodzących. Dzięki tym partnerstwom mamy dostęp do wykwalifikowanych, wielojęzycznych kadr z zagranicy (np. z Mołdawii czy Rumunii), znanych z wysokich kompetencji językowych i silnej etyki pracy. Ta sieć kontaktów pozwala nam oferować rozwiązania kosztowo efektywne, nie rezygnując przy tym z jakości ani wiedzy specjalistycznej."
+      },
+      "addressCard": {
+        "title": "Nasze biuro",
+        "address": "ul. Wynalazek 1B/206",
+        "city": "02-677 Warszawa, Polska"
+      }
+    },
+    "recruitment": {
+      "title": "Rekrutacja międzynarodowa",
+      "metaTitle": "Usługi rekrutacji międzynarodowej - Regent Partners",
+      "metaDescription": "Usługi rekrutacji międzynarodowej: wyszukiwanie talentów za granicą, obsługa zezwoleń na pracę, logistyka i wdrożenie. Zapełnij braki kadrowe szybko i legalnie.",
+      "hero": {
+        "h1": "Rekrutacja międzynarodowa",
+        "intro": "Zarządzanie złożonością zatrudnienia międzynarodowego może być wyzwaniem dla firm – i tu wkracza Regent Partners. Oferujemy usługi rekrutacji międzynarodowej, które łączą Twoją firmę z najlepszymi talentami z całego świata, obsługując każdy etap procesu rekrutacji i wdrożenia. Naszym celem jest pomoc w szybkim i efektywnym zapełnieniu kluczowych stanowisk, przy jednoczesnym zapewnieniu pełnej zgodności ze wszystkimi wymogami prawnymi i płynnej integracji nowych pracowników w Twojej organizacji."
+      },
+      "summary": {
+        "text": "Specjalizujemy się w wyszukiwaniu i rekrutacji wykwalifikowanych oraz niewykwalifikowanych pracowników z rynków międzynarodowych, aby zaspokoić Twoje potrzeby kadrowe. Niezależnie od tego, czy zmagasz się z lokalnym niedoborem siły roboczej, czy poszukujesz niszowych umiejętności, które nie są łatwo dostępne w Twoim regionie, Regent Partners może wykorzystać szeroką sieć kandydatów za granicą. Na przykład możemy rekrutować pracowników z Europy Wschodniej (Mołdawia, Rumunia, Ukraina itp.), Azji lub innych regionów w razie potrzeby. Nasze usługi obejmują wszystkie branże – od rolnictwa i produkcji po logistykę, budownictwo, sprzątanie i wiele innych. Obsługujemy rekrutację na szerokie spektrum stanowisk, od pracowników na poziomie podstawowym po wyspecjalizowanych profesjonalistów. Obejmuje to takie role jak operatorzy magazynów, pracownicy linii produkcyjnych, kierowcy, pracownicy rolni, sprzątacze, a także technicy, spawacze, operatorzy maszyn CNC, inżynierowie i inni wykwalifikowani specjaliści."
+      },
+      "process": {
+        "title": "Nasz proces rekrutacji – od początku do końca",
+        "intro": "Regent Partners zarządza całym cyklem rekrutacji międzynarodowej w ustrukturyzowany, krok po kroku sposób, zaprojektowany tak, aby zatrudnianie z zagranicy było tak bezproblemowe, jak zatrudnianie lokalne.",
+        "step1": {
+          "number": "1",
+          "title": "Analiza potrzeb",
+          "text": "Zaczynamy od dokładnej analizy Twoich potrzeb kadrowych. Współpracujemy z Tobą, aby zdefiniować profile idealnych kandydatów – kwalifikacje, umiejętności, doświadczenie i zdolności językowe wymagane na danym stanowisku. Dyskutujemy również o wszelkich preferencjach dotyczących krajów pochodzenia lub innych szczegółach. Ta wstępna jasność pozwala nam skierować się na właściwe rynki pracy i kandydatów, zapewniając wydajność i silne dopasowanie do kultury Twojej firmy i wymagań pracy."
+        },
+        "step2": {
+          "number": "2",
+          "title": "Wyszukiwanie międzynarodowe",
+          "text": "Na podstawie uzgodnionych profili identyfikujemy najlepsze rynki źródłowe talentów. Poprzez naszą sieć lokalnych partnerów rekrutacyjnych i platformy internetowe w różnych krajach wyszukujemy kandydatów za granicą, którzy odpowiadają Twoim potrzebom. Wykorzystujemy tablice ogłoszeń, media społecznościowe, lokalne agencje i nasze własne bazy danych kandydatów, aby dotrzeć zarówno do aktywnych poszukiwaczy pracy, jak i pasywnych talentów."
+        },
+        "step3": {
+          "number": "3",
+          "title": "Weryfikacja i selekcja kandydatów",
+          "text": "Wszyscy kandydaci przechodzą rygorystyczny proces weryfikacji. Sprawdzamy ich doświadczenie, kwalifikacje i referencje oraz przeprowadzamy rozmowy kwalifikacyjne (poprzez wideokonferencje dla kandydatów zagranicznych) i testy umiejętności, gdy jest to stosowne. Oceniamy również umiejętności miękkie i adaptację kulturową – ważne czynniki przy umieszczaniu kogoś w zagranicznym środowisku pracy."
+        },
+        "step4": {
+          "number": "4",
+          "title": "Zgodność prawna i zezwolenia na pracę",
+          "text": "Jednym z najbardziej krytycznych aspektów zatrudnienia międzynarodowego jest obsługa formalności prawnych. Regent Partners zarządza wszystkimi procesami administracyjnymi związanymi z autoryzacją zatrudnienia, tak aby Ty i kandydaci spełniali wszystkie wymagania prawa imigracyjnego i pracy. Dla kandydatów spoza UE przyjeżdżających do Polski lub UE oznacza to zazwyczaj uzyskanie zezwoleń na pracę i ewentualnie wiz pobytowych. Przygotowujemy i składamy niezbędną dokumentację w odpowiednich urzędach."
+        },
+        "step5": {
+          "number": "5",
+          "title": "Logistyka: podróże i zakwaterowanie",
+          "text": "Przeprowadzka do pracy to ważny krok dla każdego kandydata. Regent Partners zapewnia szerokie wsparcie w organizacji podróży i zakwaterowania dla zatrudnionych pracowników. Organizujemy transport (bilety lotnicze, kolejowe lub autobusowe) na ich podróż do miejsca pracy, zgodnie z Twoimi wymaganiami dotyczącymi daty rozpoczęcia. Dodatkowo pomagamy w zapewnieniu początkowego zakwaterowania."
+        },
+        "step6": {
+          "number": "6",
+          "title": "Wdrożenie i integracja",
+          "text": "Nasza usługa nie kończy się, gdy pracownik przybywa. Pomagamy w procesie wdrożenia, aby płynnie zintegrować zagranicznych pracowników w Twojej firmie. Koordynujemy z Twoim działem HR lub menedżerami departamentów, aby zaplanować wymagane orientacje lub szkolenia. W razie potrzeby organizujemy sesje szkoleniowe wprowadzające (na przykład dotyczące procedur bezpieczeństwa, polityki firmy, podstawowych zwrotów w języku lokalnym itp.), aby pomóc nowym pracownikom w aklimatyzacji."
+        }
+      },
+      "benefits": {
+        "title": "Korzyści biznesowe",
+        "talentPool": "Dostęp do szerszej puli talentów: Dzięki rekrutacji międzynarodowej zyskujesz dostęp do znacznie większej puli kandydatów niż oferuje lokalny rynek. Jest to szczególnie cenne dla stanowisk o wysokim zapotrzebowaniu lub wymagających szczególnej ekspertyzy.",
+        "fasterHiring": "Szybsze zatrudnienie na trudno zapełniane stanowiska: Zamiast czekać miesiące na znalezienie lokalnego kandydata (lub pozostawiania stanowisk nieobsadzonych), często możemy przedstawić wykwalifikowanych kandydatów międzynarodowych w ułamku tego czasu.",
+        "costEfficiency": "Efektywność kosztowa: W wielu przypadkach zatrudnienie z zagranicy może być opłacalne. Niektórzy międzynarodowi kandydaci mogą mieć niższe oczekiwania płacowe niż równie wykwalifikowani kandydaci lokalni, szczególnie w przypadku pracy ręcznej lub częściowo wykwalifikowanej.",
+        "compliance": "Zgodność i ograniczenie ryzyka: Jednym z największych zmartwień w zatrudnieniu międzynarodowym jest zgodność z prawem imigracyjnym i pracy. Dzięki temu, że Regent Partners zarządza procesem, zmniejszasz ryzyko prawne.",
+        "retention": "Płynne wdrożenie = Wyższa retencja: Ponieważ zapewniamy wsparcie w zakresie przeprowadzki i integracji, pracownicy rekrutowani przez nas mają tendencję do dobrego osiedlenia się i doceniają pomoc.",
+        "scalability": "Skalowalność siły roboczej: Jeśli Twoja firma musi szybko zwiększyć projekt (na przykład nowy plac budowy lub nagłe duże zamówienie w fabryce), nasza rekrutacja międzynarodowa może dostarczyć dziesiątki, a nawet setki pracowników w krótkim czasie."
+      },
+      "caseStudy": {
+        "title": "Przykład z życia",
+        "text": "(Studium przypadku) Firma produkcyjna w Niemczech zmagała się ze znalezieniem wystarczającej liczby spawaczy i operatorów maszyn lokalnie z powodu niedoboru wykwalifikowanej siły roboczej. Regent Partners wkroczyło, aby rekrutować z zagranicy: w ciągu 6 tygodni wyszukaliśmy 10 certyfikowanych spawaczy i 15 operatorów maszyn CNC z Europy Wschodniej i Azji. Skoordynowaliśmy ich zezwolenia na pracę dla Niemiec, zorganizowaliśmy loty i tymczasowe zakwaterowanie, a nawet zapewniliśmy tłumacza na pierwszy miesiąc na miejscu, aby ułatwić komunikację."
+      },
+      "b2bSupport": {
+        "title": "Wsparcie B2B",
+        "text": "Regent Partners to coś więcej niż tylko dostawca usług – postrzegamy siebie jako partnera wsparcia biznesowego (B2B) zaangażowanego w Twój sukces. Nasza firma działa jako niezawodne połączenie między międzynarodowymi pulami talentów a firmami takimi jak Twoja, zapewniając, że współpraca jest płynna, profesjonalna i korzystna dla wszystkich zaangażowanych stron. Gdy nawiążesz współpracę z Regent Partners, zyskujesz dostęp do rozbudowanego systemu wsparcia. Wszelkie kwestie lub obawy, które pojawią się podczas naszej współpracy, są rozwiązywane szybko, legalnie i z pełnym profesjonalizmem."
+      },
+      "quickOrder": {
+        "title": "Formularz szybkiego zamówienia personelu",
+        "description": "Aby ułatwić korzystanie z naszych usług, udostępniamy na naszej stronie internetowej \"Formularz szybkiego zamówienia personelu\" – prosty, usprawniony sposób na złożenie zapytania o personel lub usługę, której potrzebujesz, i uzyskanie szybkiej odpowiedzi od naszego zespołu.",
+        "submitSuccess": "Dziękujemy! Twoje zapytanie zostało pomyślnie wysłane. Skontaktujemy się z Tobą w ciągu jednego dnia roboczego."
+      }
+    }
+  }
+}
+
