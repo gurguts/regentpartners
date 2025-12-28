@@ -42,7 +42,10 @@ class AdvertisingPage {
     section.className = 'advertising-hero-section';
     
     const container = document.createElement('div');
-    container.className = 'container';
+    container.className = 'container hero-container';
+    
+    const contentWrapper = document.createElement('div');
+    contentWrapper.className = 'hero-content';
     
     const h1 = document.createElement('h1');
     h1.setAttribute('data-i18n', 'pages.advertising.hero.h1');
@@ -50,7 +53,28 @@ class AdvertisingPage {
       h1.textContent = window.i18n.t('pages.advertising.hero.h1');
     }
     
-    container.appendChild(h1);
+    const intro = document.createElement('p');
+    intro.className = 'advertising-hero-intro';
+    intro.setAttribute('data-i18n', 'pages.advertising.hero.intro');
+    if (window.i18n) {
+      intro.textContent = window.i18n.t('pages.advertising.hero.intro');
+    }
+    
+    const imageWrapper = document.createElement('div');
+    imageWrapper.className = 'hero-image';
+    
+    const img = document.createElement('img');
+    img.src = '/img/advertising-hero.webp';
+    img.alt = 'Advertising & Campaigns - Creative Marketing Solutions';
+    img.loading = 'eager';
+    
+    imageWrapper.appendChild(img);
+    
+    contentWrapper.appendChild(h1);
+    contentWrapper.appendChild(intro);
+    
+    container.appendChild(contentWrapper);
+    container.appendChild(imageWrapper);
     section.appendChild(container);
     
     return section;
@@ -269,6 +293,16 @@ class AdvertisingPage {
       h2.textContent = window.i18n.t('pages.advertising.exampleCampaign.title');
     }
     
+    const imageWrapper = document.createElement('div');
+    imageWrapper.className = 'example-campaign-image';
+    
+    const img = document.createElement('img');
+    img.src = '/img/advertising-campaign-example.webp';
+    img.alt = 'Example Campaign - Multi-channel advertising campaign';
+    img.loading = 'lazy';
+    
+    imageWrapper.appendChild(img);
+    
     const text = document.createElement('p');
     text.className = 'advertising-text';
     text.setAttribute('data-i18n', 'pages.advertising.exampleCampaign.text');
@@ -277,6 +311,7 @@ class AdvertisingPage {
     }
     
     container.appendChild(h2);
+    container.appendChild(imageWrapper);
     container.appendChild(text);
     section.appendChild(container);
     

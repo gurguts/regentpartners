@@ -23,6 +23,10 @@ class Layout {
       return;
     }
     
+    if (document.getElementById('main-header') && document.getElementById('main-footer') && document.getElementById('main-content')) {
+      return;
+    }
+    
     let headerContainer = document.getElementById('main-header');
     let mainContainer = document.getElementById('main-content');
     let footerContainer = document.getElementById('main-footer');

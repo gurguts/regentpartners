@@ -45,13 +45,9 @@ class I18n {
       
       localStorage.setItem('preferredLanguage', lang);
       
-      console.log(`Translations loaded successfully for language: ${lang}`);
-      
       return this.translations;
     } catch (error) {
-      console.error('Error loading translations:', error);
       if (lang !== 'en') {
-        console.log('Trying to load English translations as fallback...');
         return this.loadTranslations('en');
       }
       throw error;
@@ -66,7 +62,6 @@ class I18n {
 
   t(key, params = {}) {
     if (!this.loaded) {
-      console.warn('Translations not loaded yet');
       return key;
     }
 
@@ -77,7 +72,6 @@ class I18n {
       if (value && typeof value === 'object' && k in value) {
         value = value[k];
       } else {
-        console.warn(`Translation key "${key}" not found`);
         return key;
       }
     }
@@ -93,7 +87,6 @@ class I18n {
 
   async changeLanguage(lang) {
     if (lang !== 'en' && lang !== 'pl') {
-      console.error('Invalid language. Use "en" or "pl"');
       return;
     }
 

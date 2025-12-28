@@ -277,7 +277,18 @@ class AboutPage {
     
     const mapContainer = document.createElement('div');
     mapContainer.className = 'map-container';
-    mapContainer.id = 'map-placeholder';
+    
+    const mapIframe = document.createElement('iframe');
+    mapIframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.645312345678!2d21.0123456789!3d52.1876543210!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDExJzE1LjYiTiAyMcKwMDAnNDQuNCJF!5e0!3m2!1sen!2spl!4v1234567890123!5m2!1sen!2spl';
+    mapIframe.width = '100%';
+    mapIframe.height = '450';
+    mapIframe.style.border = '0';
+    mapIframe.allowFullscreen = true;
+    mapIframe.loading = 'lazy';
+    mapIframe.referrerPolicy = 'no-referrer-when-downgrade';
+    mapIframe.title = 'Regent Partners Office Location';
+    
+    mapContainer.appendChild(mapIframe);
     
     card.appendChild(title);
     card.appendChild(address);

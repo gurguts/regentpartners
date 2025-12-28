@@ -17,10 +17,18 @@ class Router {
       this.currentLang = this.detectLanguage();
     } else if (parts[0] === 'en' || parts[0] === 'pl') {
       this.currentLang = parts[0];
-      this.currentPage = parts[1] || 'home';
+      if (parts.length > 2) {
+        this.currentPage = parts.slice(1).join('/');
+      } else {
+        this.currentPage = parts[1] || 'home';
+      }
     } else {
       this.currentLang = this.detectLanguage();
-      this.currentPage = parts[0] || 'home';
+      if (parts.length > 1) {
+        this.currentPage = parts.join('/');
+      } else {
+        this.currentPage = parts[0] || 'home';
+      }
     }
     
     this.normalizePageName();
@@ -51,14 +59,22 @@ class Router {
       'services': 'services',
       'uslugi': 'services',
       'call-center': 'call-center',
+      'services/call-center': 'call-center',
+      'uslugi/call-center': 'call-center',
       'advertising-campaigns': 'advertising',
       'reklama-i-kampanie': 'advertising',
+      'services/advertising-campaigns': 'advertising',
+      'uslugi/reklama-i-kampanie': 'advertising',
       'international-recruitment': 'recruitment',
       'rekrutacja-miedzynarodowa': 'recruitment',
+      'services/international-recruitment': 'recruitment',
+      'uslugi/rekrutacja-miedzynarodowa': 'recruitment',
       'pricing': 'pricing',
       'cennik': 'pricing',
       'contact': 'contact',
-      'kontakt': 'contact'
+      'kontakt': 'contact',
+      'privacy': 'privacy',
+      'polityka-prywatnosci': 'privacy'
     };
 
     if (pageMap[this.currentPage]) {
@@ -86,7 +102,6 @@ class Router {
         'pricing': '/en/pricing',
         'contact': '/en/contact',
         'privacy': '/en/privacy',
-        'cookies': '/en/cookies',
         'terms': '/en/terms'
       },
       pl: {
@@ -99,7 +114,6 @@ class Router {
         'pricing': '/pl/cennik',
         'contact': '/pl/kontakt',
         'privacy': '/pl/polityka-prywatnosci',
-        'cookies': '/pl/polityka-cookies',
         'terms': '/pl/regulamin'
       }
     };

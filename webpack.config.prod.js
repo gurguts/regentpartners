@@ -21,6 +21,8 @@ module.exports = merge(common, {
         { from: 'icon.png', to: 'icon.png' },
         { from: '404.html', to: '404.html' },
         { from: 'site.webmanifest', to: 'site.webmanifest' },
+        { from: 'api', to: 'api' },
+        { from: '.htaccess', to: '.htaccess' },
       ],
     }),
   ],

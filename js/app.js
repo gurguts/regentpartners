@@ -12,6 +12,9 @@ import './sections/AdvertisingPage.js';
 import './sections/RecruitmentPage.js';
 import './sections/PricingPage.js';
 import './sections/ContactPage.js';
+import './sections/PrivacyPage.js';
+import './smoothScroll.js';
+import './metaTags.js';
 
 let i18n = i18nModule;
 
@@ -54,16 +57,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     await i18nInstance.loadTranslations(lang);
     
-    console.log('i18n initialized with language:', i18nInstance.getCurrentLang());
-    
-    setTimeout(() => {
-      if (window.router && typeof window.router.getCurrentPage === 'function') {
-        console.log('Current page:', window.router.getCurrentPage());
-      }
-    }, 100);
-    
-    console.log('Example translation:', i18nInstance.t('navigation.home'));
-    
     if (window.Layout) {
       const layout = new window.Layout();
       layout.init();
@@ -72,13 +65,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     setTimeout(() => {
       initPageContent();
       updatePageContent();
+      
+      if (window.metaTagsManager) {
+        window.metaTagsManager.updateMetaTags();
+      }
     }, 100);
     
     setupLanguageSwitcher();
+    setupLinkNavigation();
     
   } catch (error) {
-    console.error('Failed to initialize i18n:', error);
-    console.error('Error details:', error.message, error.stack);
   }
 });
 
@@ -111,6 +107,9 @@ function initPageContent() {
   } else if (currentPage === 'contact' && window.ContactPage) {
     const contactPage = new window.ContactPage();
     contactPage.init();
+  } else if (currentPage === 'privacy' && window.PrivacyPage) {
+    const privacyPage = new window.PrivacyPage();
+    privacyPage.init();
   }
 }
 
@@ -234,7 +233,87 @@ function updatePageContent() {
     }
   }
   
-  console.log('Page content update function called');
+  if (window.PrivacyPage && window.router && window.router.getCurrentPage() === 'privacy') {
+    const container = document.getElementById('main-content');
+    if (container) {
+      const privacyPage = new window.PrivacyPage();
+      privacyPage.container = container;
+      if (privacyPage.updateTranslations) {
+        privacyPage.updateTranslations();
+      }
+    }
+  }
+}
+
+function setupLinkNavigation() {
+  document.addEventListener('click', (e) => {
+    const link = e.target.closest('a');
+    if (!link || !link.href) return;
+    
+    const href = link.getAttribute('href');
+    
+    if (
+      link.target === '_blank' ||
+      href.startsWith('http://') ||
+      href.startsWith('https://') ||
+      href.startsWith('mailto:') ||
+      href.startsWith('tel:') ||
+      href.startsWith('#') ||
+      href === '' ||
+      href === '#'
+    ) {
+      return;
+    }
+    
+    try {
+      const url = new URL(href, window.location.origin);
+      if (url.origin !== window.location.origin) {
+        return;
+      }
+      
+      const path = url.pathname;
+      const cleanPath = path.split('#')[0];
+      
+      e.preventDefault();
+      window.history.pushState({ path: cleanPath }, '', cleanPath);
+      
+      if (window.router && window.router.parseUrl) {
+        window.router.parseUrl();
+      }
+      
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      const i18nInstance = i18n || window.i18n;
+      if (i18nInstance && window.router) {
+        const lang = window.router.getCurrentLang();
+        if (lang && lang !== i18nInstance.getCurrentLang()) {
+          i18nInstance.changeLanguage(lang).then(() => {
+            updatePageContent();
+            initPageContent();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            
+            if (window.metaTagsManager) {
+              window.metaTagsManager.updateMetaTags();
+            }
+          });
+        } else {
+          updatePageContent();
+          initPageContent();
+          
+          if (window.metaTagsManager) {
+            window.metaTagsManager.updateMetaTags();
+          }
+        }
+      } else {
+        updatePageContent();
+        initPageContent();
+        
+        if (window.metaTagsManager) {
+          window.metaTagsManager.updateMetaTags();
+        }
+      }
+    } catch (error) {
+    }
+  });
 }
 
 function setupLanguageSwitcher() {
@@ -250,10 +329,16 @@ function setupLanguageSwitcher() {
         await i18nInstance.changeLanguage(targetLang);
         
         updateUrlForLanguage(targetLang);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         
         setTimeout(() => {
           updatePageContent();
           initPageContent();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          
+          if (window.metaTagsManager) {
+            window.metaTagsManager.updateMetaTags();
+          }
         }, 50);
       }
     });
@@ -288,7 +373,6 @@ function updateUrlForLanguage(lang) {
 }
 
 window.addEventListener('languageChanged', (event) => {
-  console.log('Language changed to:', event.detail.lang);
   updatePageContent();
 });
 
@@ -296,6 +380,8 @@ window.addEventListener('popstate', (event) => {
   if (window.router && window.router.parseUrl) {
     window.router.parseUrl();
   }
+  
+  window.scrollTo({ top: 0, behavior: 'smooth' });
   const i18nInstance = i18n || window.i18n;
   if (i18nInstance && window.router) {
     const lang = window.router.getCurrentLang();
@@ -303,10 +389,20 @@ window.addEventListener('popstate', (event) => {
       i18nInstance.changeLanguage(lang).then(() => {
         updatePageContent();
         initPageContent();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        
+        if (window.metaTagsManager) {
+          window.metaTagsManager.updateMetaTags();
+        }
       });
     } else {
       updatePageContent();
       initPageContent();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      
+      if (window.metaTagsManager) {
+        window.metaTagsManager.updateMetaTags();
+      }
     }
   }
 });

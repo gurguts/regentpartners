@@ -41,7 +41,10 @@ class CallCenterPage {
     section.className = 'call-center-hero-section';
     
     const container = document.createElement('div');
-    container.className = 'container';
+    container.className = 'container hero-container';
+    
+    const contentWrapper = document.createElement('div');
+    contentWrapper.className = 'hero-content';
     
     const h1 = document.createElement('h1');
     h1.setAttribute('data-i18n', 'pages.callCenter.hero.h1');
@@ -56,8 +59,21 @@ class CallCenterPage {
       intro.textContent = window.i18n.t('pages.callCenter.hero.intro');
     }
     
-    container.appendChild(h1);
-    container.appendChild(intro);
+    const imageWrapper = document.createElement('div');
+    imageWrapper.className = 'hero-image';
+    
+    const img = document.createElement('img');
+    img.src = '/img/call-center-hero.webp';
+    img.alt = 'Call Center Services - Professional Customer Support';
+    img.loading = 'eager';
+    
+    imageWrapper.appendChild(img);
+    
+    contentWrapper.appendChild(h1);
+    contentWrapper.appendChild(intro);
+    
+    container.appendChild(contentWrapper);
+    container.appendChild(imageWrapper);
     section.appendChild(container);
     
     return section;

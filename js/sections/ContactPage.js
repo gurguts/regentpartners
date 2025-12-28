@@ -133,7 +133,7 @@ class ContactPage {
       emailLabel.textContent = window.i18n.t('pages.contact.info.email') + ': ';
     }
     const emailLink = document.createElement('a');
-    emailLink.href = 'mailto:regantpartners@gmail.com';
+    emailLink.href = 'mailto:office@regentpartners.pl';
     emailLink.className = 'contact-link';
     emailLink.setAttribute('data-i18n', 'footer.emailValue');
     if (window.i18n) {
@@ -573,7 +573,7 @@ class ContactPage {
     field.classList.remove('error');
   }
 
-  submitForm(form) {
+  async submitForm(form) {
     const submitButton = form.querySelector('button[type="submit"]');
     const originalText = submitButton.textContent;
     
@@ -585,17 +585,41 @@ class ContactPage {
     submitButton.disabled = true;
     
     const formData = new FormData(form);
-    const data = Object.fromEntries(formData.entries());
+    const data = {
+      formType: 'contact',
+      name: formData.get('name') || '',
+      email: formData.get('email') || '',
+      company: formData.get('company') || '',
+      message: formData.get('message') || '',
+      gdprConsent: formData.get('gdprConsent') === 'on',
+      website: formData.get('website') || '' // honeypot field
+    };
     
-    setTimeout(() => {
-      console.log('Form submitted:', data);
+    try {
+      const response = await fetch('/api/send-email.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data)
+      });
       
+      const result = await response.json();
+      
+      if (result.success) {
+        this.showSuccessModal();
+        form.reset();
+      } else {
+        const errorMessage = result.message || (window.i18n ? window.i18n.t('forms.messages.error') : 'An error occurred. Please try again later.');
+        alert(errorMessage);
+      }
+    } catch (error) {
+      const errorMessage = window.i18n ? window.i18n.t('forms.messages.error') : 'An error occurred. Please try again later.';
+      alert(errorMessage);
+    } finally {
       submitButton.textContent = originalText;
       submitButton.disabled = false;
-      
-      this.showSuccessModal();
-      form.reset();
-    }, 1000);
+    }
   }
 
   initModal() {

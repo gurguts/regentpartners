@@ -35,7 +35,10 @@ class HomePage {
     section.className = 'hero-section';
     
     const container = document.createElement('div');
-    container.className = 'container';
+    container.className = 'container hero-container';
+    
+    const contentWrapper = document.createElement('div');
+    contentWrapper.className = 'hero-content';
     
     const h1 = document.createElement('h1');
     h1.setAttribute('data-i18n', 'pages.home.hero.h1');
@@ -72,9 +75,22 @@ class HomePage {
     ctaGroup.appendChild(primaryCta);
     ctaGroup.appendChild(secondaryCta);
     
-    container.appendChild(h1);
-    container.appendChild(text);
-    container.appendChild(ctaGroup);
+    const imageWrapper = document.createElement('div');
+    imageWrapper.className = 'hero-image';
+    
+    const img = document.createElement('img');
+    img.src = '/img/home-hero.webp';
+    img.alt = 'Regent Partners - Professional Business Services';
+    img.loading = 'eager';
+    
+    imageWrapper.appendChild(img);
+    
+    contentWrapper.appendChild(h1);
+    contentWrapper.appendChild(text);
+    contentWrapper.appendChild(ctaGroup);
+    
+    container.appendChild(contentWrapper);
+    container.appendChild(imageWrapper);
     section.appendChild(container);
     
     return section;

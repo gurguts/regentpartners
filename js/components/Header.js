@@ -13,6 +13,10 @@ class Header {
   }
 
   createHeader() {
+    if (this.container.querySelector('.header-inner')) {
+      return;
+    }
+    
     this.container.className = 'site-header';
     
     const headerInner = document.createElement('div');
@@ -31,8 +35,8 @@ class Header {
     logoImg.alt = 'Regent Partners';
     logoImg.className = 'logo-img';
     logoImg.onerror = function() {
-      if (this.src.indexOf('logo.png') === -1) {
-        this.src = '/img/logo.png';
+      if (this.src.indexOf('logo.webp') === -1) {
+        this.src = '/img/logo.webp';
       } else {
         logoLink.innerHTML = '';
         const textLogo = document.createElement('span');
